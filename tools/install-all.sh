@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Builds and installs every Fjord plugin next to fjord-base (every sibling folder with a build.sh: fjord, torden, huldra …)
+# Builds and installs every Fjord plugin next to fjord-base (every sibling folder with a build.sh: fjord, torden, huldra, hamar …)
 # and the single-effect plugins ("Fjord Reverb" …).
 #
 #   tools/install-all.sh                  all plugins, then all effects

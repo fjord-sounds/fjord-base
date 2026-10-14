@@ -20,7 +20,7 @@ modules are built once per target. Binary data (Manrope, effect presets and chai
 warnings, the test target.
 
 Namespaces: base code is `fjord::base::…` (`fjord::base::fx`, `…::ui`, `…::params`, `…::presets`, `…::plugin`,
-`…::dsp`); each plugin keeps its own (`torden`, `huldra`, `fjord`).
+`…::dsp`); each plugin keeps its own (`torden`, `huldra`, `hamar`, `fjord`).
 
 ## Parameters
 

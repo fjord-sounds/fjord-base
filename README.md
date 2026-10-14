@@ -6,7 +6,8 @@
 # fjord-base
 
 The shared foundation of the [fjord-sounds](https://github.com/fjord-sounds) plugins ([Fjord](https://github.com/fjord-sounds/fjord),
-[Torden](https://github.com/fjord-sounds/torden), [Huldra](https://github.com/fjord-sounds/huldra)): the user interface,
+[Torden](https://github.com/fjord-sounds/torden), [Huldra](https://github.com/fjord-sounds/huldra),
+[Hamar](https://github.com/fjord-sounds/hamar)): the user interface,
 sixteen effects with more than 700 presets, the preset system, build helpers, CI workflows and a project template.
 Standing alone it builds **sixteen effect plugins** – "Fjord Reverb", "Fjord Delay", "Fjord EQ" … – for VST3, Audio Unit,
 LV2 and as standalone apps.
@@ -86,7 +87,7 @@ fjord-base is not a package you install: **clone it next to the plugin repositor
 
 ```bash
 git clone https://github.com/fjord-sounds/fjord-base.git
-git clone https://github.com/fjord-sounds/torden.git        # or huldra, fjord, your own plugin
+git clone https://github.com/fjord-sounds/torden.git        # or huldra, hamar, fjord, your own plugin
 cd torden && ./build.sh
 ```
 

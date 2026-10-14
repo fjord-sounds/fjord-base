@@ -25,10 +25,11 @@ A plugin defines `fjord::base::brand()` once (in `PluginProcessor.cpp`). It retu
 They are **defaults to start from** – a plugin may change any single colour or replace the palette completely. Nothing
 in fjord-base uses a fixed colour: components read `Theme::get().palette()`, `gradientColours(dark)`, `gradientAt` and
 `drawGlow`, which come from the Brand. Plugin-specific colour helpers (Torden's storm, Huldra's veil, Fjord's aurora,
-layer and engine colours) live in the plugin's `ui/Theme.h`.
+Hamar's brass and wood, layer, engine and category colours) live in the plugin's `ui/Theme.h`.
 
 Current accents: Fjord aurora green (dark `0xff58d1a4`, light `0xff0e7566`), Torden thunderstorm amber
-(`0xfff2b544` / `0xffa8650a`), Huldra rose with a lilac and ice-blue veil. Each single-effect plugin has an accent of
+(`0xfff2b544` / `0xffa8650a`), Huldra rose with a lilac and ice-blue veil, Hamar ivory and brass (`0xffe6c88a` /
+`0xff8a6526`, gradient ivory → brass → walnut). Each single-effect plugin has an accent of
 its own (see `effects/source/EffectProcessor.cpp`).
 
 ## Typography
@@ -41,7 +42,7 @@ its own (see `effects/source/EffectProcessor.cpp`).
 ## Layout
 
 - Windows are drawn at a fixed size and scaled as a whole (75–150 %, remembered in `uiScale`). Instruments use roughly
-  1100 × 740 (Fjord, Torden) up to 1200 × 800 (Huldra); effect plugins 1040 × 600.
+  1100 × 740 (Fjord, Torden) up to 1200 × 800 (Huldra, Hamar); effect plugins 1040 × 600.
 - Header 64 px, tab row 40 px, margin 16 px. Panels have a 6–8 px radius, a fine `line` outline and the `panel` fill.
 - Knobs sit on a grid; selectors (segmented, dropdown, toggle) have a small all-caps label above and a fixed height.
 - Less is more: no gradients on controls, no shadows, no icons where text does the job.
@@ -51,7 +52,7 @@ its own (see `effects/source/EffectProcessor.cpp`).
 Every plugin has the same header: logo with a **dot that flashes with every note or hit** (brightness = velocity), the
 level meter with an optional flash in `brand().flash`, the preset bar, undo/redo, GitHub, theme switch and the master
 knob. A click on the logo opens the About panel; a double-click stops all sound. Tabs sit below; plugin specific
-controls (Huldra's play-mode chips) go into the tab row.
+controls (Huldra's play-mode chips, Hamar's model menu and quality) go into the tab row.
 
 ## The FX page
 

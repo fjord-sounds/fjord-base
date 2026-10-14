@@ -4,6 +4,8 @@ All notable changes to fjord-base. The format follows [Keep a Changelog](https:/
 versions follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+- Hamar (physically modelled piano) joins the family: its plugin code `Hmar` is reserved in `tools/new-plugin.py`, and
+  the documentation lists it.
 
 ## [0.2.0] – 2026-10-14
 - **Locks** for every plugin: `locks::LockSet`, the padlock menu (`LockMenu`, `MenuLayout`), `LockButton`, and

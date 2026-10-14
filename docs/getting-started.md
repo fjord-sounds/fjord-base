@@ -60,7 +60,7 @@ More in [testing.md](testing.md).
 
 ```bash
 cd fjord-base
-tools/install-all.sh                 # every plugin next to fjord-base (fjord, torden, huldra …), then the sixteen effects
+tools/install-all.sh                 # every plugin next to fjord-base (fjord, torden, huldra, hamar …), then the sixteen effects
 tools/install-all.sh torden huldra   # only these plugins (and the effects)
 tools/install-all.sh --no-effects    # plugins only;  --effects-only: effects only
 ```

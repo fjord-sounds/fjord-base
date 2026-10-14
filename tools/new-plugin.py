@@ -20,7 +20,7 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
 TEMPLATE = BASE / "templates" / "plugin"
-RESERVED_CODES = {"Trdn", "Hldr", "Fjrd", "Fsat", "Flfi", "Ftrs", "Fcmp", "Fsqh", "Fequ", "Fflt", "Fmot", "Fdly", "Frvb",
+RESERVED_CODES = {"Trdn", "Hldr", "Hmar", "Fjrd", "Fsat", "Flfi", "Ftrs", "Fcmp", "Fsqh", "Fequ", "Fflt", "Fmot", "Fdly", "Frvb",
                   "Fwdt", "Ftrm", "Fshf", "Fexc", "Fhrm", "Fclp"}
 
 
