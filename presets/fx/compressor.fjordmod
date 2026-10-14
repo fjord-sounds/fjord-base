@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="compressor">
+  <Preset name="Gentle Glue" category="Smooth">
+    <Param id="attack" value="30.39"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="3.046"/>
+    <Param id="mix" value="0.9784"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="204.2"/>
+    <Param id="thresh" value="-32.7447"/>
+  </Preset>
+  <Preset name="Bus Glue" category="Smooth">
+    <Param id="attack" value="20.13"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="1.955"/>
+    <Param id="mix" value="0.9743"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="294.4"/>
+    <Param id="thresh" value="-28.5252"/>
+  </Preset>
+  <Preset name="Levelling" category="Smooth">
+    <Param id="attack" value="51.41"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="5.921"/>
+    <Param id="mix" value="0.986"/>
+    <Param id="ratio" value="2.925"/>
+    <Param id="release" value="407.1"/>
+    <Param id="thresh" value="-23.7"/>
+  </Preset>
+  <Preset name="Soft Knee Pad" category="Smooth">
+    <Param id="attack" value="78.5"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="4.904"/>
+    <Param id="mix" value="0.9938"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="594"/>
+    <Param id="thresh" value="-33.8379"/>
+  </Preset>
+  <Preset name="Transparent" category="Smooth">
+    <Param id="attack" value="20.58"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="0.988"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="153"/>
+    <Param id="thresh" value="-29.7376"/>
+  </Preset>
+  <Preset name="Vintage Opto" category="Smooth">
+    <Param id="attack" value="58.81"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="5.086"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="2.971"/>
+    <Param id="release" value="819.2"/>
+    <Param id="thresh" value="-22.43"/>
+  </Preset>
+  <Preset name="Vocal Rider" category="Smooth">
+    <Param id="attack" value="8.038"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="10.03"/>
+    <Param id="ratio" value="3.074"/>
+    <Param id="release" value="184.6"/>
+    <Param id="thresh" value="-21.51"/>
+  </Preset>
+  <Preset name="Piano Leveller" category="Smooth">
+    <Param id="attack" value="15.31"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="12.12"/>
+    <Param id="ratio" value="2.497"/>
+    <Param id="release" value="247.8"/>
+    <Param id="thresh" value="-20.52"/>
+  </Preset>
+  <Preset name="Pad Breather" category="Smooth">
+    <Param id="attack" value="40.16"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="13.83"/>
+    <Param id="ratio" value="2.03"/>
+    <Param id="release" value="589.1"/>
+    <Param id="thresh" value="-26.69"/>
+  </Preset>
+  <Preset name="Silky Mix Bus" category="Smooth">
+    <Param id="attack" value="29.59"/>
+    <Param id="autogain" value="1"/>
+    <Param id="hpf" value="61.12"/>
+    <Param id="knee" value="17.94"/>
+    <Param id="ratio" value="1.795"/>
+    <Param id="release" value="295.9"/>
+    <Param id="thresh" value="-18.08"/>
+  </Preset>
+  <Preset name="Opto Glow" category="Smooth">
+    <Param id="attack" value="11.68"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="15.68"/>
+    <Param id="ratio" value="3.463"/>
+    <Param id="release" value="497.3"/>
+    <Param id="thresh" value="-24.52"/>
+  </Preset>
+  <Preset name="Sidechain Safe Lows" category="Smooth">
+    <Param id="attack" value="10.21"/>
+    <Param id="autogain" value="1"/>
+    <Param id="hpf" value="145.6"/>
+    <Param id="knee" value="8.134"/>
+    <Param id="ratio" value="2.915"/>
+    <Param id="release" value="162.2"/>
+    <Param id="thresh" value="-20.13"/>
+  </Preset>
+  <Preset name="Slow Glue" category="Smooth">
+    <Param id="attack" value="59.59"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="9.948"/>
+    <Param id="ratio" value="1.943"/>
+    <Param id="release" value="898.5"/>
+    <Param id="thresh" value="-18.51"/>
+  </Preset>
+  <Preset name="Acoustic Guitar Even" category="Smooth">
+    <Param id="attack" value="10.16"/>
+    <Param id="autogain" value="1"/>
+    <Param id="hpf" value="78.53"/>
+    <Param id="knee" value="10.26"/>
+    <Param id="ratio" value="3.021"/>
+    <Param id="release" value="199.9"/>
+    <Param id="thresh" value="-24.63"/>
+  </Preset>
+  <Preset name="Glue For Pads" category="Smooth">
+    <Param id="attack" value="50.22"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="15.57"/>
+    <Param id="ratio" value="1.97"/>
+    <Param id="release" value="713.4"/>
+    <Param id="thresh" value="-28.61"/>
+  </Preset>
+  <Preset name="Punchy" category="Punch">
+    <Param id="attack" value="20.53"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="4.018"/>
+    <Param id="mix" value="0.9829"/>
+    <Param id="ratio" value="4.036"/>
+    <Param id="release" value="97.15"/>
+    <Param id="thresh" value="-17.93"/>
+  </Preset>
+  <Preset name="Snappy Pluck" category="Punch">
+    <Param id="attack" value="12.3"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="5.082"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="5.043"/>
+    <Param id="release" value="81.32"/>
+    <Param id="thresh" value="-21.65"/>
+  </Preset>
+  <Preset name="Kick Smack" category="Punch">
+    <Param id="attack" value="30.03"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="4.924"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="5.874"/>
+    <Param id="release" value="119.8"/>
+    <Param id="thresh" value="-19.6"/>
+  </Preset>
+  <Preset name="Bass Control" category="Punch">
+    <Param id="attack" value="10.03"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="6.088"/>
+    <Param id="mix" value="0.9929"/>
+    <Param id="ratio" value="4.559"/>
+    <Param id="release" value="177.2"/>
+    <Param id="thresh" value="-23.91"/>
+  </Preset>
+  <Preset name="Attack Enhancer" category="Punch">
+    <Param id="attack" value="48.68"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="6.001"/>
+    <Param id="mix" value="0.6997"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="100.5"/>
+    <Param id="thresh" value="-37.2523"/>
+  </Preset>
+  <Preset name="Kick Thwack" category="Punch">
+    <Param id="attack" value="24.99"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="3.982"/>
+    <Param id="ratio" value="4.01"/>
+    <Param id="release" value="88.72"/>
+    <Param id="thresh" value="-19.55"/>
+  </Preset>
+  <Preset name="Snare Pop" category="Punch">
+    <Param id="attack" value="11.98"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="2.963"/>
+    <Param id="ratio" value="5.113"/>
+    <Param id="release" value="110.1"/>
+    <Param id="thresh" value="-24.58"/>
+  </Preset>
+  <Preset name="Bass Pluck Punch" category="Punch">
+    <Param id="attack" value="18.5"/>
+    <Param id="autogain" value="1"/>
+    <Param id="hpf" value="39.72"/>
+    <Param id="knee" value="6.114"/>
+    <Param id="ratio" value="4.07"/>
+    <Param id="release" value="136.7"/>
+    <Param id="thresh" value="-21.47"/>
+  </Preset>
+  <Preset name="Drum Room Snap" category="Punch">
+    <Param id="attack" value="3.986"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="1.952"/>
+    <Param id="mix" value="0.7028"/>
+    <Param id="ratio" value="5.824"/>
+    <Param id="release" value="70.46"/>
+    <Param id="thresh" value="-29.41"/>
+  </Preset>
+  <Preset name="Synth Stab Bite" category="Punch">
+    <Param id="attack" value="30.2"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="6.051"/>
+    <Param id="ratio" value="2.982"/>
+    <Param id="release" value="123.5"/>
+    <Param id="thresh" value="-18.35"/>
+  </Preset>
+  <Preset name="Fast Catcher" category="Punch">
+    <Param id="attack" value="0.5117"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="2.019"/>
+    <Param id="ratio" value="6.086"/>
+    <Param id="release" value="39.31"/>
+    <Param id="thresh" value="-14.16"/>
+  </Preset>
+  <Preset name="New York Parallel" category="Parallel">
+    <Param id="attack" value="3.977"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="14.14"/>
+    <Param id="mix" value="0.3578"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="148.1"/>
+    <Param id="thresh" value="-60"/>
+  </Preset>
+  <Preset name="Parallel Thickener" category="Parallel">
+    <Param id="attack" value="10.28"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="10.25"/>
+    <Param id="mix" value="0.4539"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="202.9"/>
+    <Param id="thresh" value="-48.0105"/>
+  </Preset>
+  <Preset name="Secret Weapon" category="Parallel">
+    <Param id="attack" value="1.011"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="17.58"/>
+    <Param id="mix" value="0.1989"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="251.7"/>
+    <Param id="thresh" value="-60"/>
+  </Preset>
+  <Preset name="Breath Lifter" category="Parallel">
+    <Param id="attack" value="19.52"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="16.43"/>
+    <Param id="mix" value="0.297"/>
+    <Param id="ratio" value="7.835"/>
+    <Param id="release" value="401.5"/>
+    <Param id="thresh" value="-42.05"/>
+  </Preset>
+  <Preset name="Lofi Smash" category="Parallel">
+    <Param id="attack" value="0.9941"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="19.42"/>
+    <Param id="mix" value="0.2466"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="101.1"/>
+    <Param id="thresh" value="-60"/>
+  </Preset>
+  <Preset name="New York Drums" category="Parallel">
+    <Param id="attack" value="1.983"/>
+    <Param id="knee" value="4.09"/>
+    <Param id="makeup" value="10.21"/>
+    <Param id="mix" value="0.3469"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="91.39"/>
+    <Param id="thresh" value="-60"/>
+  </Preset>
+  <Preset name="Dense Under Dry" category="Parallel">
+    <Param id="attack" value="5.035"/>
+    <Param id="knee" value="5.894"/>
+    <Param id="makeup" value="7.859"/>
+    <Param id="mix" value="0.3881"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="153.8"/>
+    <Param id="thresh" value="-53.4699"/>
+  </Preset>
+  <Preset name="Lift The Quiet" category="Parallel">
+    <Param id="attack" value="0.9944"/>
+    <Param id="knee" value="7.782"/>
+    <Param id="makeup" value="12.05"/>
+    <Param id="mix" value="0.3072"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="194.1"/>
+    <Param id="thresh" value="-60"/>
+  </Preset>
+  <Preset name="Upward Feel" category="Parallel">
+    <Param id="attack" value="9.979"/>
+    <Param id="knee" value="12.04"/>
+    <Param id="makeup" value="14.3"/>
+    <Param id="mix" value="0.2445"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="402.7"/>
+    <Param id="thresh" value="-60"/>
+  </Preset>
+  <Preset name="Squash" category="Heavy">
+    <Param id="attack" value="2.999"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="12.11"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="117.2"/>
+    <Param id="thresh" value="-34.0681"/>
+  </Preset>
+  <Preset name="Room Pumper" category="Heavy">
+    <Param id="attack" value="1.986"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="10.26"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="358.8"/>
+    <Param id="thresh" value="-32.1137"/>
+  </Preset>
+  <Preset name="Brickwall-ish" category="Heavy">
+    <Param id="attack" value="1.015"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="3.969"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="78.02"/>
+    <Param id="thresh" value="-10.18"/>
+  </Preset>
+  <Preset name="Sustain Machine" category="Heavy">
+    <Param id="attack" value="9.843"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="13.65"/>
+    <Param id="mix" value="0.9821"/>
+    <Param id="ratio" value="7.975"/>
+    <Param id="release" value="503.3"/>
+    <Param id="thresh" value="-38.5"/>
+  </Preset>
+  <Preset name="Pumping Pad" category="Heavy">
+    <Param id="attack" value="5.083"/>
+    <Param id="autogain" value="0"/>
+    <Param id="hpf" value="20"/>
+    <Param id="knee" value="6"/>
+    <Param id="makeup" value="8.782"/>
+    <Param id="mix" value="1"/>
+    <Param id="ratio" value="7.2615"/>
+    <Param id="release" value="593.4"/>
+    <Param id="thresh" value="-31.98"/>
+  </Preset>
+  <Preset name="Radio Wall" category="Heavy">
+    <Param id="attack" value="1.002"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="1.97"/>
+    <Param id="ratio" value="12.19"/>
+    <Param id="release" value="79.7"/>
+    <Param id="thresh" value="-37.07"/>
+  </Preset>
+  <Preset name="Pumping House" category="Heavy">
+    <Param id="attack" value="3.089"/>
+    <Param id="autogain" value="1"/>
+    <Param id="hpf" value="121.5"/>
+    <Param id="knee" value="3.912"/>
+    <Param id="ratio" value="10.07"/>
+    <Param id="release" value="200.1"/>
+    <Param id="thresh" value="-34.2"/>
+  </Preset>
+  <Preset name="Crushed Room" category="Heavy">
+    <Param id="attack" value="0.5073"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="0"/>
+    <Param id="mix" value="0.5992"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="58.77"/>
+    <Param id="thresh" value="-42.67"/>
+  </Preset>
+  <Preset name="Breathing Walls" category="Heavy">
+    <Param id="attack" value="2.049"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="6.161"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="354.6"/>
+    <Param id="thresh" value="-39.3666"/>
+  </Preset>
+  <Preset name="Limiter Feel" category="Heavy">
+    <Param id="attack" value="0.3088"/>
+    <Param id="knee" value="1.991"/>
+    <Param id="makeup" value="4.082"/>
+    <Param id="ratio" value="19.65"/>
+    <Param id="release" value="48.85"/>
+    <Param id="thresh" value="-12.15"/>
+  </Preset>
+  <Preset name="Breathing Room" category="Heavy">
+    <Param id="attack" value="0.9875"/>
+    <Param id="autogain" value="1"/>
+    <Param id="knee" value="5.834"/>
+    <Param id="mix" value="0.5113"/>
+    <Param id="ratio" value="20"/>
+    <Param id="release" value="493.9"/>
+    <Param id="thresh" value="-53.4999"/>
+  </Preset>
+</FjordFxPresets>

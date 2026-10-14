@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="tremolo">
+  <Preset name="Surf Amp" category="Tremolo">
+    <Param id="depth" value="0.7971"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.4934"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Vintage Combo" category="Tremolo">
+    <Param id="depth" value="0.771193"/>
+    <Param id="mode" value="0"/>
+    <Param id="rate" value="5.5"/>
+    <Param id="shape" value="1"/>
+    <Param id="smooth" value="0.6045"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Slow Sway" category="Tremolo">
+    <Param id="depth" value="0.673067"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="11"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.7895"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Stutter Gate Sixteenths" category="Tremolo">
+    <Param id="depth" value="0.8952"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="2"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.1531"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Choppy Eighths" category="Tremolo">
+    <Param id="depth" value="1"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.1011"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Pumping Saw" category="Tremolo">
+    <Param id="depth" value="0.799904"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="8"/>
+    <Param id="shape" value="3"/>
+    <Param id="smooth" value="0.3034"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Triplet Throb" category="Tremolo">
+    <Param id="depth" value="0.714216"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="3"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.6013"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Helicopter" category="Tremolo">
+    <Param id="depth" value="0.8068"/>
+    <Param id="mode" value="0"/>
+    <Param id="rate" value="14"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.3006"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Random Flicker" category="Tremolo">
+    <Param id="depth" value="0.729196"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="2"/>
+    <Param id="shape" value="4"/>
+    <Param id="smooth" value="0.5133"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Candle Flicker" category="Tremolo">
+    <Param id="depth" value="0.657171"/>
+    <Param id="mode" value="0"/>
+    <Param id="rate" value="6"/>
+    <Param id="shape" value="4"/>
+    <Param id="smooth" value="0.6798"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Stereo Tremolo" category="Tremolo">
+    <Param id="depth" value="0.724326"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.4869"/>
+    <Param id="stereo" value="89.12"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Ping Pong Gate" category="Tremolo">
+    <Param id="depth" value="0.9965"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="2"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.1987"/>
+    <Param id="stereo" value="175.5"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Gentle Pan" category="Auto-Pan">
+    <Param id="depth" value="0.883875"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="13"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.7814"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Wide Circle" category="Auto-Pan">
+    <Param id="depth" value="0.8875"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="11"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.7966"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Eighth Ping Pan" category="Auto-Pan">
+    <Param id="depth" value="0.787"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.2982"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Drunk Pan" category="Auto-Pan">
+    <Param id="depth" value="0.916301"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="8"/>
+    <Param id="shape" value="4"/>
+    <Param id="smooth" value="0.8214"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Leslie Spin" category="Auto-Pan">
+    <Param id="depth" value="0.80501"/>
+    <Param id="mode" value="1"/>
+    <Param id="rate" value="6.5"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.5869"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Slow Orbit" category="Auto-Pan">
+    <Param id="depth" value="0.9766"/>
+    <Param id="mode" value="1"/>
+    <Param id="rate" value="0.2"/>
+    <Param id="shape" value="1"/>
+    <Param id="smooth" value="0.8742"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Triangle Swing Pan" category="Auto-Pan">
+    <Param id="depth" value="1"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="10"/>
+    <Param id="shape" value="1"/>
+    <Param id="smooth" value="0.6071"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Harmonic Shimmer" category="Harmonic">
+    <Param id="depth" value="0.583"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.5856"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Brownface Amp" category="Harmonic">
+    <Param id="depth" value="0.701"/>
+    <Param id="mode" value="2"/>
+    <Param id="rate" value="4"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.6022"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Harmonic Pulse" category="Harmonic">
+    <Param id="depth" value="0.8021"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="8"/>
+    <Param id="shape" value="1"/>
+    <Param id="smooth" value="0.5051"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Lows Against Highs" category="Harmonic">
+    <Param id="depth" value="0.8976"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.3004"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Harmonic Breath" category="Harmonic">
+    <Param id="depth" value="0.499"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="11"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.8942"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Subtle Movement" category="Subtle">
+    <Param id="depth" value="0.725858"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="8"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.8096"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Pad Breathing" category="Subtle">
+    <Param id="depth" value="0.724575"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="13"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.9194"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Keys Glimmer" category="Subtle">
+    <Param id="depth" value="0.2989"/>
+    <Param id="mode" value="2"/>
+    <Param id="rate" value="3"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.6989"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Half Mix Trem" category="Subtle">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5086"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="5"/>
+    <Param id="shape" value="1"/>
+    <Param id="smooth" value="0.4951"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Sidechain Fake" category="Rhythmic">
+    <Param id="depth" value="0.8702"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="8"/>
+    <Param id="shape" value="3"/>
+    <Param id="smooth" value="0.2433"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Trance Gate Feel" category="Rhythmic">
+    <Param id="depth" value="0.8042"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="2"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.1945"/>
+    <Param id="stereo" value="0"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Dotted Gate" category="Rhythmic">
+    <Param id="depth" value="0.8811"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.1952"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Bar Swell" category="Rhythmic">
+    <Param id="depth" value="0.7996"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="13"/>
+    <Param id="shape" value="3"/>
+    <Param id="smooth" value="0.3969"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Triplet Pan" category="Rhythmic">
+    <Param id="depth" value="0.6846"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="3"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.3081"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Sixteenth Ripple" category="Rhythmic">
+    <Param id="depth" value="0.731251"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="2"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.4951"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Shuffle Tremolo" category="Rhythmic">
+    <Param id="depth" value="0.773972"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="4"/>
+    <Param id="shape" value="1"/>
+    <Param id="smooth" value="0.3913"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Ring Mod Feel" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mode" value="0"/>
+    <Param id="rate" value="20"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.2051"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Glitch Steps" category="Sound Design">
+    <Param id="depth" value="0.76122"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="0"/>
+    <Param id="shape" value="4"/>
+    <Param id="smooth" value="0.09836"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Tidal Pan" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="14"/>
+    <Param id="shape" value="0"/>
+    <Param id="smooth" value="0.882"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Morse Code" category="Sound Design">
+    <Param id="depth" value="0.9805"/>
+    <Param id="mode" value="0"/>
+    <Param id="rate" value="9"/>
+    <Param id="shape" value="2"/>
+    <Param id="smooth" value="0.05147"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Flutter Wings" category="Sound Design">
+    <Param id="depth" value="0.5925"/>
+    <Param id="mode" value="2"/>
+    <Param id="rate" value="11"/>
+    <Param id="shape" value="4"/>
+    <Param id="smooth" value="0.3932"/>
+    <Param id="sync" value="0"/>
+  </Preset>
+  <Preset name="Lighthouse" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="11"/>
+    <Param id="shape" value="3"/>
+    <Param id="smooth" value="0.5132"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+</FjordFxPresets>

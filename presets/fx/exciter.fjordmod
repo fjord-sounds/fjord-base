@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="exciter">
+  <Preset name="Vocal Air" category="Air">
+    <Param id="amount" value="0.331849"/>
+    <Param id="color" value="0.1982"/>
+    <Param id="drive" value="0.3066"/>
+    <Param id="freq" value="7935"/>
+  </Preset>
+  <Preset name="Silk Top" category="Air">
+    <Param id="amount" value="0.381565"/>
+    <Param id="color" value="0.4053"/>
+    <Param id="drive" value="0.2563"/>
+    <Param id="freq" value="10000"/>
+  </Preset>
+  <Preset name="Breath Lift" category="Air">
+    <Param id="amount" value="0.3489"/>
+    <Param id="color" value="0"/>
+    <Param id="drive" value="0.3511"/>
+    <Param id="freq" value="6806"/>
+  </Preset>
+  <Preset name="Shimmer Dust" category="Air">
+    <Param id="amount" value="0.321114"/>
+    <Param id="color" value="0.5871"/>
+    <Param id="drive" value="0.4854"/>
+    <Param id="freq" value="11020"/>
+  </Preset>
+  <Preset name="Crystal Edge" category="Air">
+    <Param id="amount" value="0.2978"/>
+    <Param id="color" value="-0.1952"/>
+    <Param id="drive" value="0.4553"/>
+    <Param id="freq" value="9440"/>
+  </Preset>
+  <Preset name="Satin Strings" category="Air">
+    <Param id="amount" value="0.31481"/>
+    <Param id="color" value="0.4932"/>
+    <Param id="drive" value="0.3009"/>
+    <Param id="freq" value="6335"/>
+  </Preset>
+  <Preset name="Acoustic Shine" category="Air">
+    <Param id="amount" value="0.326781"/>
+    <Param id="color" value="0.3074"/>
+    <Param id="drive" value="0.3006"/>
+    <Param id="freq" value="7331"/>
+  </Preset>
+  <Preset name="Choir Air" category="Air">
+    <Param id="amount" value="0.332287"/>
+    <Param id="color" value="0.513"/>
+    <Param id="drive" value="0.3569"/>
+    <Param id="freq" value="9234"/>
+  </Preset>
+  <Preset name="Guitar Presence" category="Presence">
+    <Param id="amount" value="0.2976"/>
+    <Param id="color" value="0"/>
+    <Param id="drive" value="0.3595"/>
+    <Param id="freq" value="2960"/>
+  </Preset>
+  <Preset name="Snare Crack" category="Presence">
+    <Param id="amount" value="0.3577"/>
+    <Param id="color" value="-0.4073"/>
+    <Param id="drive" value="0.5138"/>
+    <Param id="freq" value="2550"/>
+  </Preset>
+  <Preset name="Bass Definition" category="Presence">
+    <Param id="amount" value="0.3028"/>
+    <Param id="color" value="0.292"/>
+    <Param id="drive" value="0.3991"/>
+    <Param id="freq" value="1198"/>
+  </Preset>
+  <Preset name="Piano Clarity" category="Presence">
+    <Param id="amount" value="0.287359"/>
+    <Param id="color" value="0.1986"/>
+    <Param id="drive" value="0.2457"/>
+    <Param id="freq" value="3535"/>
+  </Preset>
+  <Preset name="Lead Bite" category="Presence">
+    <Param id="amount" value="0.3402"/>
+    <Param id="color" value="-0.2918"/>
+    <Param id="drive" value="0.5459"/>
+    <Param id="freq" value="2183"/>
+  </Preset>
+  <Preset name="Synth Forward" category="Presence">
+    <Param id="amount" value="0.3056"/>
+    <Param id="color" value="0.09746"/>
+    <Param id="drive" value="0.4481"/>
+    <Param id="freq" value="2841"/>
+  </Preset>
+  <Preset name="Kick Click Maker" category="Presence">
+    <Param id="amount" value="0.3933"/>
+    <Param id="color" value="-0.4959"/>
+    <Param id="drive" value="0.6791"/>
+    <Param id="freq" value="3067"/>
+  </Preset>
+  <Preset name="Vocal Consonants" category="Presence">
+    <Param id="amount" value="0.2919"/>
+    <Param id="color" value="0"/>
+    <Param id="drive" value="0.4083"/>
+    <Param id="freq" value="4619"/>
+  </Preset>
+  <Preset name="Bright Pluck" category="Presence">
+    <Param id="amount" value="0.3521"/>
+    <Param id="color" value="0.1982"/>
+    <Param id="drive" value="0.5111"/>
+    <Param id="freq" value="5648"/>
+  </Preset>
+  <Preset name="Tube Sheen" category="Warm">
+    <Param id="amount" value="0.3086"/>
+    <Param id="color" value="0.9159"/>
+    <Param id="drive" value="0.4082"/>
+    <Param id="freq" value="3910"/>
+  </Preset>
+  <Preset name="Even Glow" category="Warm">
+    <Param id="amount" value="0.266709"/>
+    <Param id="color" value="0.9758"/>
+    <Param id="drive" value="0.2962"/>
+    <Param id="freq" value="3066"/>
+  </Preset>
+  <Preset name="Gold Plating" category="Warm">
+    <Param id="amount" value="0.3054"/>
+    <Param id="color" value="0.6869"/>
+    <Param id="drive" value="0.499"/>
+    <Param id="freq" value="4911"/>
+  </Preset>
+  <Preset name="Velvet Harmonics" category="Warm">
+    <Param id="amount" value="0.265401"/>
+    <Param id="color" value="0.8024"/>
+    <Param id="drive" value="0.2541"/>
+    <Param id="freq" value="2570"/>
+  </Preset>
+  <Preset name="Analog Polish" category="Warm">
+    <Param id="amount" value="0.2966"/>
+    <Param id="color" value="0.593"/>
+    <Param id="drive" value="0.3594"/>
+    <Param id="freq" value="6152"/>
+  </Preset>
+  <Preset name="Pad Halo" category="Warm">
+    <Param id="amount" value="0.3581"/>
+    <Param id="color" value="0.5147"/>
+    <Param id="drive" value="0.405"/>
+    <Param id="freq" value="4575"/>
+  </Preset>
+  <Preset name="Electric Piano Bell" category="Warm">
+    <Param id="amount" value="0.3004"/>
+    <Param id="color" value="0.8107"/>
+    <Param id="drive" value="0.4557"/>
+    <Param id="freq" value="3202"/>
+  </Preset>
+  <Preset name="Tape Sparkle" category="Gritty">
+    <Param id="amount" value="0.2911"/>
+    <Param id="color" value="-0.8229"/>
+    <Param id="drive" value="0.5952"/>
+    <Param id="freq" value="5101"/>
+  </Preset>
+  <Preset name="Odd Fizz" category="Gritty">
+    <Param id="amount" value="0.298"/>
+    <Param id="color" value="-1"/>
+    <Param id="drive" value="0.7007"/>
+    <Param id="freq" value="3553"/>
+  </Preset>
+  <Preset name="Crunchy Hats" category="Gritty">
+    <Param id="amount" value="0.3514"/>
+    <Param id="color" value="-0.6008"/>
+    <Param id="drive" value="0.7861"/>
+    <Param id="freq" value="7066"/>
+  </Preset>
+  <Preset name="Lo-Fi Sizzle" category="Gritty">
+    <Param id="amount" value="0.2557"/>
+    <Param id="color" value="-0.8886"/>
+    <Param id="drive" value="0.8768"/>
+    <Param id="freq" value="4571"/>
+  </Preset>
+  <Preset name="Distorted Air" category="Gritty">
+    <Param id="amount" value="0.2574"/>
+    <Param id="color" value="-0.5062"/>
+    <Param id="drive" value="0.9905"/>
+    <Param id="freq" value="9252"/>
+  </Preset>
+  <Preset name="Radio Edge" category="Gritty">
+    <Param id="amount" value="0.2939"/>
+    <Param id="color" value="-0.6801"/>
+    <Param id="drive" value="0.7379"/>
+    <Param id="freq" value="1955"/>
+  </Preset>
+  <Preset name="Gentle Touch" category="Subtle">
+    <Param id="amount" value="0.350158"/>
+    <Param id="color" value="0.2935"/>
+    <Param id="drive" value="0.2059"/>
+    <Param id="freq" value="6068"/>
+  </Preset>
+  <Preset name="Mix Bus Air" category="Subtle">
+    <Param id="amount" value="0.411913"/>
+    <Param id="color" value="0.2059"/>
+    <Param id="drive" value="0.2057"/>
+    <Param id="freq" value="10070"/>
+  </Preset>
+  <Preset name="Faint Presence" category="Subtle">
+    <Param id="amount" value="0.279756"/>
+    <Param id="color" value="0"/>
+    <Param id="drive" value="0.2565"/>
+    <Param id="freq" value="3412"/>
+  </Preset>
+  <Preset name="Hidden Harmonics" category="Subtle">
+    <Param id="amount" value="0.294604"/>
+    <Param id="color" value="0.5007"/>
+    <Param id="drive" value="0.3031"/>
+    <Param id="freq" value="4908"/>
+  </Preset>
+  <Preset name="Polish" category="Subtle">
+    <Param id="amount" value="0.358128"/>
+    <Param id="color" value="0.4057"/>
+    <Param id="drive" value="0.2433"/>
+    <Param id="freq" value="7885"/>
+  </Preset>
+  <Preset name="Soft Clarity" category="Subtle">
+    <Param id="amount" value="0.313793"/>
+    <Param id="color" value="0.1941"/>
+    <Param id="drive" value="0.2043"/>
+    <Param id="freq" value="3983"/>
+  </Preset>
+  <Preset name="Hyper Bright" category="Extreme">
+    <Param id="amount" value="0.5931"/>
+    <Param id="color" value="0"/>
+    <Param id="drive" value="1"/>
+    <Param id="freq" value="4919"/>
+  </Preset>
+  <Preset name="Harmonic Storm" category="Extreme">
+    <Param id="amount" value="0.4991"/>
+    <Param id="color" value="-0.3036"/>
+    <Param id="drive" value="1"/>
+    <Param id="freq" value="1527"/>
+  </Preset>
+  <Preset name="Glass Shards" category="Extreme">
+    <Param id="amount" value="0.5471"/>
+    <Param id="color" value="-0.7993"/>
+    <Param id="drive" value="0.9129"/>
+    <Param id="freq" value="7823"/>
+  </Preset>
+  <Preset name="Overtone Choir" category="Extreme">
+    <Param id="amount" value="0.4926"/>
+    <Param id="color" value="0.8941"/>
+    <Param id="drive" value="0.8409"/>
+    <Param id="freq" value="2477"/>
+  </Preset>
+  <Preset name="Muffled Rescue" category="Extreme">
+    <Param id="amount" value="0.6084"/>
+    <Param id="color" value="0.4083"/>
+    <Param id="drive" value="0.6012"/>
+    <Param id="freq" value="2008"/>
+  </Preset>
+</FjordFxPresets>

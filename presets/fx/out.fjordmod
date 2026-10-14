@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="out">
+  <Preset name="Safety Net" category="Safe">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Broadcast Ceiling" category="Safe">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="True Peak Margin" category="Safe">
+    <Param id="ceiling" value="-1.5"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Headroom For Mastering" category="Safe">
+    <Param id="ceiling" value="-6"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Streaming Safe" category="Safe">
+    <Param id="ceiling" value="-1.2"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Gentle Catch" category="Safe">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Transparent Guard" category="Safe">
+    <Param id="ceiling" value="-0.1"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Soft Loud" category="Loud">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="3.058"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Louder Still" category="Loud">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="5.843"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Club Loud" category="Loud">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="7.819"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Pop Master Feel" category="Loud">
+    <Param id="ceiling" value="-0.8"/>
+    <Param id="drive" value="3.991"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Dense And Loud" category="Loud">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="7.007"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Maximum" category="Loud">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="12.06"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Midnight Master" category="Loud">
+    <Param id="ceiling" value="-0.7"/>
+    <Param id="drive" value="5.094"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Arena Loud" category="Loud">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="9.768"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Tape Glue" category="Tape">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="1.967"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Tape Push" category="Tape">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="4.949"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Hot Tape" category="Tape">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="9.166"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Warm Ceiling" category="Tape">
+    <Param id="ceiling" value="-2"/>
+    <Param id="drive" value="3.043"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Saturated Bus" category="Tape">
+    <Param id="ceiling" value="-1.5"/>
+    <Param id="drive" value="5.907"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Tape Into Red" category="Tape">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="11.98"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Hard Edge" category="Hard">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="1.948"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Digital Clip" category="Hard">
+    <Param id="ceiling" value="-0.3"/>
+    <Param id="drive" value="5.122"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Square Waves" category="Hard">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="12.17"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Drum Clipper" category="Hard">
+    <Param id="ceiling" value="-0.8"/>
+    <Param id="drive" value="4.114"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Kick Clipper" category="Hard">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="5.977"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Snare Smash" category="Hard">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="7.779"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Gentle Clip" category="Soft">
+    <Param id="ceiling" value="-0.5"/>
+    <Param id="drive" value="1.527"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Round Peaks" category="Soft">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="2.476"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Soft Knee Clip" category="Soft">
+    <Param id="ceiling" value="-1.5"/>
+    <Param id="drive" value="4.042"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Velvet Ceiling" category="Soft">
+    <Param id="ceiling" value="-3"/>
+    <Param id="drive" value="3.045"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Quiet Glue" category="Soft">
+    <Param id="ceiling" value="-6"/>
+    <Param id="drive" value="1.988"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Bass Control" category="Soft">
+    <Param id="ceiling" value="-2"/>
+    <Param id="drive" value="4.853"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Felt Limiter" category="Soft">
+    <Param id="ceiling" value="-1"/>
+    <Param id="drive" value="0.987"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Lo-Fi Crunch" category="Character">
+    <Param id="ceiling" value="-6"/>
+    <Param id="drive" value="17.96"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Broken Speaker" category="Character">
+    <Param id="ceiling" value="-9"/>
+    <Param id="drive" value="23.92"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Fuzz Ceiling" category="Character">
+    <Param id="ceiling" value="-8"/>
+    <Param id="drive" value="19.44"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Distant Radio" category="Character">
+    <Param id="ceiling" value="-10"/>
+    <Param id="drive" value="14.75"/>
+    <Param id="mode" value="2"/>
+  </Preset>
+  <Preset name="Overdriven Desk" category="Character">
+    <Param id="ceiling" value="-4"/>
+    <Param id="drive" value="14.18"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+  <Preset name="Crushed Room" category="Character">
+    <Param id="ceiling" value="-5"/>
+    <Param id="drive" value="16.4"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+  <Preset name="Low Ceiling" category="Character">
+    <Param id="ceiling" value="-12"/>
+    <Param id="drive" value="0"/>
+    <Param id="mode" value="0"/>
+  </Preset>
+</FjordFxPresets>

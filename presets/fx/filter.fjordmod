@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="filter">
+  <Preset name="Warm Ladder" category="Low Pass">
+    <Param id="cutoff" value="1778"/>
+    <Param id="drive" value="0.1957"/>
+    <Param id="reso" value="0.2056"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Dark Ladder" category="Low Pass">
+    <Param id="cutoff" value="592"/>
+    <Param id="drive" value="0.2919"/>
+    <Param id="reso" value="0.303"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Muffled Room" category="Low Pass">
+    <Param id="cutoff" value="888.5"/>
+    <Param id="reso" value="0.09873"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Smooth Top Cut" category="Low Pass">
+    <Param id="cutoff" value="4877"/>
+    <Param id="reso" value="0.05124"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Resonant Squelch" category="Low Pass">
+    <Param id="cutoff" value="693"/>
+    <Param id="decay" value="0.2457"/>
+    <Param id="drive" value="0.4061"/>
+    <Param id="env" value="2.958"/>
+    <Param id="reso" value="0.7385"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Driven Ladder" category="Low Pass">
+    <Param id="cutoff" value="1431"/>
+    <Param id="drive" value="0.8054"/>
+    <Param id="reso" value="0.512"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Half Wet Ladder" category="Low Pass">
+    <Param id="cutoff" value="803"/>
+    <Param id="drive" value="0.4"/>
+    <Param id="mix" value="0.4913"/>
+    <Param id="reso" value="0.6177"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Acid Line" category="Envelope">
+    <Param id="cutoff" value="408.3"/>
+    <Param id="decay" value="0.1786"/>
+    <Param id="drive" value="0.5125"/>
+    <Param id="env" value="4.098"/>
+    <Param id="reso" value="0.8362"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Pluck Maker" category="Envelope">
+    <Param id="cutoff" value="503.6"/>
+    <Param id="decay" value="0.1185"/>
+    <Param id="env" value="4.467"/>
+    <Param id="reso" value="0.3442"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Soft Wah Pluck" category="Envelope">
+    <Param id="cutoff" value="588"/>
+    <Param id="decay" value="0.2915"/>
+    <Param id="env" value="3.044"/>
+    <Param id="reso" value="0.4921"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Reverse Sweep" category="Envelope">
+    <Param id="cutoff" value="6123"/>
+    <Param id="decay" value="0.5949"/>
+    <Param id="env" value="-3.94"/>
+    <Param id="reso" value="0.299"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Bloom Opening" category="Envelope">
+    <Param id="cutoff" value="298.1"/>
+    <Param id="decay" value="1.493"/>
+    <Param id="env" value="3.937"/>
+    <Param id="reso" value="0.2457"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Kick Thump Filter" category="Envelope">
+    <Param id="cutoff" value="246.5"/>
+    <Param id="decay" value="0.06028"/>
+    <Param id="env" value="3.604"/>
+    <Param id="reso" value="0.3927"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Auto Wah Guitar" category="Envelope">
+    <Param id="cutoff" value="488.5"/>
+    <Param id="decay" value="0.2025"/>
+    <Param id="env" value="3.075"/>
+    <Param id="reso" value="0.6177"/>
+    <Param id="trigger" value="1"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Funk Envelope" category="Envelope">
+    <Param id="cutoff" value="401.2"/>
+    <Param id="decay" value="0.1517"/>
+    <Param id="env" value="3.576"/>
+    <Param id="reso" value="0.695"/>
+    <Param id="trigger" value="1"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Bass Growl" category="Envelope">
+    <Param id="cutoff" value="352.2"/>
+    <Param id="decay" value="0.3542"/>
+    <Param id="drive" value="0.5978"/>
+    <Param id="env" value="2.485"/>
+    <Param id="reso" value="0.5972"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Drum Loop Filter" category="Envelope">
+    <Param id="cutoff" value="920.7"/>
+    <Param id="decay" value="0.09909"/>
+    <Param id="env" value="2.031"/>
+    <Param id="reso" value="0.3066"/>
+    <Param id="trigger" value="1"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Closing Door" category="Envelope">
+    <Param id="cutoff" value="8019"/>
+    <Param id="decay" value="0.8893"/>
+    <Param id="env" value="-4.982"/>
+    <Param id="reso" value="0.1952"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Slow Sweep" category="LFO">
+    <Param id="cutoff" value="1178"/>
+    <Param id="lfo_depth" value="2.528"/>
+    <Param id="lfo_rate" value="0.1019"/>
+    <Param id="lfo_shape" value="0"/>
+    <Param id="reso" value="0.3971"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Breathing Pad" category="LFO">
+    <Param id="cutoff" value="1944"/>
+    <Param id="lfo_depth" value="1.485"/>
+    <Param id="lfo_note" value="14"/>
+    <Param id="lfo_shape" value="0"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.2001"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Quarter Wobble" category="LFO">
+    <Param id="cutoff" value="777.1"/>
+    <Param id="lfo_depth" value="2.041"/>
+    <Param id="lfo_note" value="8"/>
+    <Param id="lfo_shape" value="0"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.546"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Eighth Pulse" category="LFO">
+    <Param id="cutoff" value="1010"/>
+    <Param id="lfo_depth" value="1.811"/>
+    <Param id="lfo_note" value="5"/>
+    <Param id="lfo_shape" value="3"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.3936"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Sample And Hold" category="LFO">
+    <Param id="cutoff" value="1515"/>
+    <Param id="lfo_depth" value="2.054"/>
+    <Param id="lfo_note" value="2"/>
+    <Param id="lfo_shape" value="4"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.6047"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Saw Ramp Filter" category="LFO">
+    <Param id="cutoff" value="712.9"/>
+    <Param id="lfo_depth" value="2.475"/>
+    <Param id="lfo_note" value="8"/>
+    <Param id="lfo_shape" value="2"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.4524"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Triangle Drift" category="LFO">
+    <Param id="cutoff" value="922.3"/>
+    <Param id="lfo_depth" value="1.806"/>
+    <Param id="lfo_rate" value="0.2535"/>
+    <Param id="lfo_shape" value="1"/>
+    <Param id="reso" value="0.3941"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Underwater Pulse" category="LFO">
+    <Param id="cutoff" value="492.6"/>
+    <Param id="drive" value="0.2015"/>
+    <Param id="lfo_depth" value="1.194"/>
+    <Param id="lfo_note" value="11"/>
+    <Param id="lfo_shape" value="0"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.4964"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Gated Chord Swell" category="LFO">
+    <Param id="cutoff" value="486"/>
+    <Param id="lfo_depth" value="3.004"/>
+    <Param id="lfo_note" value="8"/>
+    <Param id="lfo_shape" value="2"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.2962"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Trance Ramp" category="LFO">
+    <Param id="cutoff" value="585"/>
+    <Param id="lfo_depth" value="2.18"/>
+    <Param id="lfo_note" value="2"/>
+    <Param id="lfo_shape" value="2"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.553"/>
+    <Param id="type" value="1"/>
+  </Preset>
+  <Preset name="Lazy Sunday" category="LFO">
+    <Param id="cutoff" value="2172"/>
+    <Param id="lfo_depth" value="0.9936"/>
+    <Param id="lfo_rate" value="0.0514"/>
+    <Param id="lfo_shape" value="0"/>
+    <Param id="reso" value="0.2011"/>
+    <Param id="type" value="0"/>
+  </Preset>
+  <Preset name="Random Steps" category="LFO">
+    <Param id="cutoff" value="985.6"/>
+    <Param id="lfo_depth" value="2.484"/>
+    <Param id="lfo_note" value="5"/>
+    <Param id="lfo_shape" value="4"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.5055"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Talking Filter" category="LFO">
+    <Param id="cutoff" value="688.6"/>
+    <Param id="lfo_depth" value="1.46"/>
+    <Param id="lfo_rate" value="2.918"/>
+    <Param id="lfo_shape" value="4"/>
+    <Param id="reso" value="0.7031"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Thin Out" category="High Pass">
+    <Param id="cutoff" value="394.8"/>
+    <Param id="reso" value="0.09706"/>
+    <Param id="type" value="3"/>
+  </Preset>
+  <Preset name="Riser Lift" category="High Pass">
+    <Param id="cutoff" value="150.3"/>
+    <Param id="lfo_depth" value="3.026"/>
+    <Param id="lfo_note" value="14"/>
+    <Param id="lfo_shape" value="2"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.3993"/>
+    <Param id="type" value="3"/>
+  </Preset>
+  <Preset name="Hi Pass Sparkle" category="High Pass">
+    <Param id="cutoff" value="2523"/>
+    <Param id="mix" value="0.4869"/>
+    <Param id="reso" value="0.2968"/>
+    <Param id="type" value="3"/>
+  </Preset>
+  <Preset name="Resonant High" category="High Pass">
+    <Param id="cutoff" value="925.7"/>
+    <Param id="reso" value="0.6836"/>
+    <Param id="type" value="3"/>
+  </Preset>
+  <Preset name="Telephone Band" category="Band Pass">
+    <Param id="cutoff" value="1401"/>
+    <Param id="reso" value="0.2988"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Vocal Formant Band" category="Band Pass">
+    <Param id="cutoff" value="797.8"/>
+    <Param id="lfo_depth" value="0.9857"/>
+    <Param id="lfo_rate" value="0.3057"/>
+    <Param id="lfo_shape" value="1"/>
+    <Param id="reso" value="0.6308"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Narrow Whistle" category="Band Pass">
+    <Param id="cutoff" value="2357"/>
+    <Param id="mix" value="0.6081"/>
+    <Param id="reso" value="0.8617"/>
+    <Param id="type" value="2"/>
+  </Preset>
+  <Preset name="Phasey Notch" category="Notch">
+    <Param id="cutoff" value="1206"/>
+    <Param id="lfo_depth" value="1.969"/>
+    <Param id="lfo_rate" value="0.2029"/>
+    <Param id="lfo_shape" value="0"/>
+    <Param id="reso" value="0.5128"/>
+    <Param id="type" value="4"/>
+  </Preset>
+  <Preset name="Notch Sweep Eighths" category="Notch">
+    <Param id="cutoff" value="873.1"/>
+    <Param id="lfo_depth" value="2.469"/>
+    <Param id="lfo_note" value="5"/>
+    <Param id="lfo_shape" value="1"/>
+    <Param id="lfo_sync" value="1"/>
+    <Param id="reso" value="0.5925"/>
+    <Param id="type" value="4"/>
+  </Preset>
+  <Preset name="Hollow Notch" category="Notch">
+    <Param id="cutoff" value="591.6"/>
+    <Param id="reso" value="0.3034"/>
+    <Param id="type" value="4"/>
+  </Preset>
+</FjordFxPresets>

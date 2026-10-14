@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="shifter">
+  <Preset name="Slow Beating" category="Subtle">
+    <Param id="mix" value="0.5026"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="0.5936"/>
+  </Preset>
+  <Preset name="Phaser Like" category="Subtle">
+    <Param id="mix" value="0.4977"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="1.455"/>
+  </Preset>
+  <Preset name="Gentle Drift" category="Subtle">
+    <Param id="mix" value="0.3541"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="2.958"/>
+  </Preset>
+  <Preset name="Stereo Swirl" category="Subtle">
+    <Param id="mix" value="0.5069"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="1.21"/>
+    <Param id="spread" value="0.9785"/>
+  </Preset>
+  <Preset name="Wide Detune" category="Subtle">
+    <Param id="mix" value="0.3953"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="5.933"/>
+    <Param id="spread" value="0.9988"/>
+  </Preset>
+  <Preset name="Tiny Shift" category="Subtle">
+    <Param id="mix" value="0.5067"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="0.1504"/>
+  </Preset>
+  <Preset name="Barber Pole Up" category="Feedback">
+    <Param id="feedback" value="0.6029"/>
+    <Param id="mix" value="0.5121"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="2.033"/>
+  </Preset>
+  <Preset name="Barber Pole Down" category="Feedback">
+    <Param id="feedback" value="0.5964"/>
+    <Param id="mix" value="0.5018"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-1.995"/>
+  </Preset>
+  <Preset name="Endless Rise" category="Feedback">
+    <Param id="feedback" value="0.7522"/>
+    <Param id="mix" value="0.452"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="7.896"/>
+  </Preset>
+  <Preset name="Spiral Staircase" category="Feedback">
+    <Param id="feedback" value="0.7203"/>
+    <Param id="mix" value="0.4431"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-12.31"/>
+    <Param id="spread" value="0.4911"/>
+  </Preset>
+  <Preset name="Swirling Tail" category="Feedback">
+    <Param id="feedback" value="0.5089"/>
+    <Param id="mix" value="0.4074"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="4.096"/>
+    <Param id="spread" value="0.6795"/>
+  </Preset>
+  <Preset name="Wah Feedback" category="Feedback">
+    <Param id="feedback" value="0.811"/>
+    <Param id="mix" value="0.355"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="61.5"/>
+  </Preset>
+  <Preset name="Metal Shift" category="Metallic">
+    <Param id="mix" value="0.5012"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="123.4"/>
+  </Preset>
+  <Preset name="Inharmonic Bells" category="Metallic">
+    <Param id="mix" value="0.6088"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="233.4"/>
+  </Preset>
+  <Preset name="Detuned Robot" category="Metallic">
+    <Param id="mix" value="0.6131"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-80.12"/>
+  </Preset>
+  <Preset name="Clangy Keys" category="Metallic">
+    <Param id="feedback" value="0.1989"/>
+    <Param id="mix" value="0.4429"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="340.8"/>
+  </Preset>
+  <Preset name="Broken Radio" category="Metallic">
+    <Param id="mix" value="0.4912"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-445.3"/>
+  </Preset>
+  <Preset name="Underwater Voice" category="Metallic">
+    <Param id="mix" value="0.6867"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-35.68"/>
+    <Param id="spread" value="0.4073"/>
+  </Preset>
+  <Preset name="Ring Bell" category="Ring">
+    <Param id="mix" value="0.5104"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="433.2"/>
+  </Preset>
+  <Preset name="Ring Robot" category="Ring">
+    <Param id="mix" value="0.6096"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="89.16"/>
+  </Preset>
+  <Preset name="Ring Tremolo" category="Ring">
+    <Param id="mix" value="0.4869"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="7.072"/>
+  </Preset>
+  <Preset name="Ring Sub Growl" category="Ring">
+    <Param id="mix" value="0.406"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="40.4"/>
+  </Preset>
+  <Preset name="Ring Shimmer" category="Ring">
+    <Param id="mix" value="0.3075"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="1220"/>
+  </Preset>
+  <Preset name="Ring Siren" category="Ring">
+    <Param id="feedback" value="0.2937"/>
+    <Param id="mix" value="0.3986"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="645.9"/>
+  </Preset>
+  <Preset name="Ring Stereo Glass" category="Ring">
+    <Param id="mix" value="0.3406"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="797.5"/>
+    <Param id="spread" value="0.9709"/>
+  </Preset>
+  <Preset name="Dalek" category="Ring">
+    <Param id="mix" value="0.7872"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="29.45"/>
+  </Preset>
+  <Preset name="Octave Ghost Up" category="Musical">
+    <Param id="feedback" value="0.1014"/>
+    <Param id="mix" value="0.2927"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="109.5"/>
+  </Preset>
+  <Preset name="Shifted Pad Air" category="Musical">
+    <Param id="mix" value="0.3012"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="14.69"/>
+    <Param id="spread" value="0.8084"/>
+  </Preset>
+  <Preset name="Chorus Without Delay" category="Musical">
+    <Param id="mix" value="0.4903"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="0.3087"/>
+    <Param id="spread" value="1"/>
+  </Preset>
+  <Preset name="Hollow Guitar" category="Musical">
+    <Param id="feedback" value="0.2944"/>
+    <Param id="mix" value="0.394"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-4.977"/>
+  </Preset>
+  <Preset name="Shimmer Lift" category="Musical">
+    <Param id="feedback" value="0.3954"/>
+    <Param id="mix" value="0.2975"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="24.27"/>
+  </Preset>
+  <Preset name="Floating Choir" category="Musical">
+    <Param id="feedback" value="0.3429"/>
+    <Param id="mix" value="0.3448"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-9.233"/>
+    <Param id="spread" value="0.599"/>
+  </Preset>
+  <Preset name="Detuned Doubles" category="Musical">
+    <Param id="mix" value="0.4616"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="2.442"/>
+    <Param id="spread" value="0.9752"/>
+  </Preset>
+  <Preset name="Sci-Fi Doors" category="Sound Design">
+    <Param id="feedback" value="0.5911"/>
+    <Param id="mix" value="0.5007"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-717.7"/>
+  </Preset>
+  <Preset name="Alien Chatter" category="Sound Design">
+    <Param id="feedback" value="0.6553"/>
+    <Param id="mix" value="0.5053"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="184.2"/>
+    <Param id="spread" value="1"/>
+  </Preset>
+  <Preset name="Laser Fall" category="Sound Design">
+    <Param id="feedback" value="0.4985"/>
+    <Param id="mix" value="0.4608"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-1529"/>
+  </Preset>
+  <Preset name="Glitch Halo" category="Sound Design">
+    <Param id="feedback" value="0.4046"/>
+    <Param id="mix" value="0.3083"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="1849"/>
+  </Preset>
+  <Preset name="Machine Hum" category="Sound Design">
+    <Param id="feedback" value="0.5141"/>
+    <Param id="mix" value="0.3989"/>
+    <Param id="mode" value="1"/>
+    <Param id="shift" value="61.47"/>
+  </Preset>
+  <Preset name="Space Station" category="Sound Design">
+    <Param id="feedback" value="0.8271"/>
+    <Param id="mix" value="0.4469"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="55.03"/>
+    <Param id="spread" value="0.7808"/>
+  </Preset>
+  <Preset name="Mirror World" category="Sound Design">
+    <Param id="mix" value="0.552"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-249.9"/>
+    <Param id="spread" value="1"/>
+  </Preset>
+  <Preset name="Upside Down" category="Sound Design">
+    <Param id="mix" value="0.604"/>
+    <Param id="mode" value="0"/>
+    <Param id="shift" value="-968"/>
+  </Preset>
+</FjordFxPresets>

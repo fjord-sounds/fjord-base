@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="delay">
+  <Preset name="Slapback" category="Short">
+    <Param id="damp" value="0.4054"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.09815"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.2436"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="0"/>
+    <Param id="time" value="95"/>
+  </Preset>
+  <Preset name="Doubler" category="Short">
+    <Param id="damp" value="0.2931"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.343145"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="0"/>
+    <Param id="time" value="28"/>
+  </Preset>
+  <Preset name="Sixteenth Echo" category="Short">
+    <Param id="damp" value="0.5142"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.2518"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.31841"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="2"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Tight Room Echo" category="Short">
+    <Param id="damp" value="0.6118"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.3025"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.316786"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="0"/>
+    <Param id="time" value="60"/>
+  </Preset>
+  <Preset name="Eighth Notes" category="Rhythmic">
+    <Param id="damp" value="0.4609"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.3466"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.2171"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="5"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Dotted Eighths" category="Rhythmic">
+    <Param id="damp" value="0.5142"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.4119"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.337023"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Triplet Bounce" category="Rhythmic">
+    <Param id="damp" value="0.5107"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.3419"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.322681"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="3"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Quarter Notes" category="Rhythmic">
+    <Param id="damp" value="0.5042"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.4054"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.229631"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="8"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Dotted Quarter" category="Rhythmic">
+    <Param id="damp" value="0.5505"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.4424"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.36276"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="10"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Ping Pong Sixteenths" category="Rhythmic">
+    <Param id="damp" value="0.3986"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.456"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.307983"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="4"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Triplet Skip" category="Rhythmic">
+    <Param id="feedback" value="0.4481"/>
+    <Param id="mix" value="0.319036"/>
+    <Param id="note" value="3"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Sixteenth Shuffle" category="Rhythmic">
+    <Param id="damp" value="0.3959"/>
+    <Param id="feedback" value="0.3908"/>
+    <Param id="mix" value="0.312545"/>
+    <Param id="note" value="4"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Wide Offset Echo" category="Stereo">
+    <Param id="feedback" value="0.3958"/>
+    <Param id="mix" value="0.2549"/>
+    <Param id="note" value="5"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0.5966"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Haas Ping" category="Stereo">
+    <Param id="feedback" value="0.2954"/>
+    <Param id="mix" value="0.319354"/>
+    <Param id="note" value="2"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0.292"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Tape Echo Eighths" category="Tape">
+    <Param id="damp" value="0.5068"/>
+    <Param id="feedback" value="0.4052"/>
+    <Param id="mix" value="0.328791"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="5"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Space Echo Dotted" category="Tape">
+    <Param id="damp" value="0.5662"/>
+    <Param id="feedback" value="0.5051"/>
+    <Param id="mix" value="0.326205"/>
+    <Param id="mod" value="0.291"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="7"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Worn Loop Echo" category="Tape">
+    <Param id="damp" value="0.6951"/>
+    <Param id="feedback" value="0.5979"/>
+    <Param id="lowcut" value="202.7"/>
+    <Param id="mix" value="0.415088"/>
+    <Param id="mod" value="0.4884"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="8"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Dub Siren Echo" category="Tape">
+    <Param id="damp" value="0.5976"/>
+    <Param id="feedback" value="0.7324"/>
+    <Param id="lowcut" value="304.6"/>
+    <Param id="mix" value="0.453331"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="10"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Slap Tape" category="Tape">
+    <Param id="damp" value="0.5114"/>
+    <Param id="feedback" value="0.1494"/>
+    <Param id="mix" value="0.3031"/>
+    <Param id="mode" value="1"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="sync" value="0"/>
+    <Param id="time" value="95"/>
+  </Preset>
+  <Preset name="Grain Cascade" category="Grains">
+    <Param id="damp" value="0.4112"/>
+    <Param id="feedback" value="0.4928"/>
+    <Param id="mix" value="0.410502"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="5"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Octave Sparkle Echo" category="Grains">
+    <Param id="damp" value="0.2031"/>
+    <Param id="feedback" value="0.4491"/>
+    <Param id="mix" value="0.397033"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="2"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Broken Glass Repeats" category="Grains">
+    <Param id="damp" value="0.2998"/>
+    <Param id="feedback" value="0.5498"/>
+    <Param id="mix" value="0.405292"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="3"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Shimmer Taps" category="Grains">
+    <Param id="damp" value="0.3513"/>
+    <Param id="duck" value="0.3966"/>
+    <Param id="feedback" value="0.6128"/>
+    <Param id="mix" value="0.486019"/>
+    <Param id="mode" value="2"/>
+    <Param id="note" value="8"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Diffuse Cloud" category="Diffuse">
+    <Param id="damp" value="0.5053"/>
+    <Param id="feedback" value="0.616"/>
+    <Param id="mix" value="0.382158"/>
+    <Param id="mode" value="3"/>
+    <Param id="note" value="7"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Smeared Quarters" category="Diffuse">
+    <Param id="damp" value="0.6066"/>
+    <Param id="feedback" value="0.5652"/>
+    <Param id="mix" value="0.366127"/>
+    <Param id="mode" value="3"/>
+    <Param id="note" value="8"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Reverb Echo" category="Diffuse">
+    <Param id="damp" value="0.541"/>
+    <Param id="feedback" value="0.7161"/>
+    <Param id="mix" value="0.342326"/>
+    <Param id="mode" value="3"/>
+    <Param id="note" value="2"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Ghost Trails" category="Diffuse">
+    <Param id="damp" value="0.6884"/>
+    <Param id="duck" value="0.49"/>
+    <Param id="feedback" value="0.6465"/>
+    <Param id="mix" value="0.469381"/>
+    <Param id="mode" value="3"/>
+    <Param id="note" value="11"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Endless" category="Ambient">
+    <Param id="damp" value="0.6549"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.8484"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.365184"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="11"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Cathedral Echo" category="Ambient">
+    <Param id="damp" value="0.5945"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.7454"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.3516"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="10"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Starfield" category="Ambient">
+    <Param id="damp" value="0.7013"/>
+    <Param id="duck" value="0.3003"/>
+    <Param id="feedback" value="0.8041"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.3181"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Long Goodbye" category="Ambient">
+    <Param id="damp" value="0.6974"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.7048"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.345993"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="0"/>
+    <Param id="time" value="900"/>
+  </Preset>
+  <Preset name="Canyon" category="Ambient">
+    <Param id="damp" value="0.5935"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.4909"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.301433"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="0"/>
+    <Param id="time" value="1600"/>
+  </Preset>
+  <Preset name="Half Bar Wash" category="Ambient">
+    <Param id="damp" value="0.7275"/>
+    <Param id="duck" value="0.4029"/>
+    <Param id="feedback" value="0.6582"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.475405"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="12"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Half Note Wash" category="Ambient">
+    <Param id="damp" value="0.6578"/>
+    <Param id="duck" value="0.308"/>
+    <Param id="feedback" value="0.7132"/>
+    <Param id="mix" value="0.40259"/>
+    <Param id="mod" value="0.2982"/>
+    <Param id="note" value="11"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Polite Vocal Echo" category="Ambient">
+    <Param id="damp" value="0.4976"/>
+    <Param id="duck" value="0.6977"/>
+    <Param id="feedback" value="0.4394"/>
+    <Param id="mix" value="0.430186"/>
+    <Param id="note" value="8"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Modulated Dream" category="Ambient">
+    <Param id="damp" value="0.5822"/>
+    <Param id="feedback" value="0.6313"/>
+    <Param id="mix" value="0.353842"/>
+    <Param id="mod" value="0.7941"/>
+    <Param id="mode" value="1"/>
+    <Param id="note" value="10"/>
+    <Param id="sync" value="1"/>
+  </Preset>
+  <Preset name="Tape Echo" category="Character">
+    <Param id="damp" value="0.7412"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.4865"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.2826"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Dub Echo" category="Character">
+    <Param id="damp" value="0.8162"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.6866"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.348722"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="10"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Dark Repeats" category="Character">
+    <Param id="damp" value="0.8897"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.5834"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.2571"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="8"/>
+    <Param id="pingpong" value="0"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Bright Digital" category="Character">
+    <Param id="damp" value="0.1003"/>
+    <Param id="duck" value="0"/>
+    <Param id="feedback" value="0.4546"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.324668"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="5"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Ducked Vocal Echo" category="Character">
+    <Param id="damp" value="0.4937"/>
+    <Param id="duck" value="0.7186"/>
+    <Param id="feedback" value="0.3885"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.440083"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="7"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+  <Preset name="Ducked Lead" category="Character">
+    <Param id="damp" value="0.5398"/>
+    <Param id="duck" value="0.6107"/>
+    <Param id="feedback" value="0.4495"/>
+    <Param id="lowcut" value="90"/>
+    <Param id="mix" value="0.411271"/>
+    <Param id="mod" value="0"/>
+    <Param id="mode" value="0"/>
+    <Param id="note" value="8"/>
+    <Param id="pingpong" value="1"/>
+    <Param id="spread" value="0"/>
+    <Param id="sync" value="1"/>
+    <Param id="time" value="350"/>
+  </Preset>
+</FjordFxPresets>

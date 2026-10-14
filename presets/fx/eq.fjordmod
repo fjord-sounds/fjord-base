@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="eq">
+  <Preset name="Clean Lows" category="Cleanup">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="39.06"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Remove Mud" category="Cleanup">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="58.22"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="301.7"/>
+    <Param id="mid_gain" value="-3.67284"/>
+    <Param id="mid_q" value="0.9972"/>
+  </Preset>
+  <Preset name="Tighten Bass" category="Cleanup">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="34.56"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="174.7"/>
+    <Param id="mid_gain" value="-1.952"/>
+    <Param id="mid_q" value="1.205"/>
+  </Preset>
+  <Preset name="De-Harsh" category="Cleanup">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3492"/>
+    <Param id="mid2_gain" value="-18"/>
+    <Param id="mid2_q" value="1.589"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Make Room For Vocals" category="Cleanup">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="123"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3250"/>
+    <Param id="mid2_gain" value="-1.961"/>
+    <Param id="mid2_q" value="0.9947"/>
+    <Param id="mid_freq" value="1816"/>
+    <Param id="mid_gain" value="-2.916"/>
+    <Param id="mid_q" value="0.8094"/>
+  </Preset>
+  <Preset name="Thin Out" category="Cleanup">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="257"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Nasal Cut" category="Cleanup">
+    <Param id="mid_freq" value="888.5"/>
+    <Param id="mid_gain" value="-12.9648"/>
+    <Param id="mid_q" value="1.807"/>
+  </Preset>
+  <Preset name="Boxy Room Fix" category="Cleanup">
+    <Param id="lowcut" value="60.41"/>
+    <Param id="mid_freq" value="438.8"/>
+    <Param id="mid_gain" value="-3.999"/>
+    <Param id="mid_q" value="1.441"/>
+  </Preset>
+  <Preset name="Harsh Tamer" category="Cleanup">
+    <Param id="high_freq" value="9902"/>
+    <Param id="high_gain" value="-18"/>
+    <Param id="mid2_freq" value="3154"/>
+    <Param id="mid2_gain" value="-18"/>
+    <Param id="mid2_q" value="2.536"/>
+  </Preset>
+  <Preset name="Clean Low End" category="Cleanup">
+    <Param id="lowcut" value="45.36"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="204.8"/>
+    <Param id="mid_gain" value="-1.96"/>
+    <Param id="mid_q" value="0.79"/>
+  </Preset>
+  <Preset name="Pad Carve" category="Cleanup">
+    <Param id="high_freq" value="9053"/>
+    <Param id="high_gain" value="1.462"/>
+    <Param id="lowcut" value="184.9"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="503"/>
+    <Param id="mid_gain" value="-2.05"/>
+    <Param id="mid_q" value="0.7086"/>
+  </Preset>
+  <Preset name="Make Space For Kick" category="Cleanup">
+    <Param id="lowcut" value="118.9"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="307.5"/>
+    <Param id="mid_gain" value="-1.475"/>
+  </Preset>
+  <Preset name="Remove Rumble" category="Cleanup">
+    <Param id="lowcut" value="35.09"/>
+    <Param id="lowcut_slope" value="1"/>
+  </Preset>
+  <Preset name="Air Lift" category="Tone">
+    <Param id="high_freq" value="9118"/>
+    <Param id="high_gain" value="9.83906"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Silk Top" category="Tone">
+    <Param id="high_freq" value="11710"/>
+    <Param id="high_gain" value="2.551"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="2917"/>
+    <Param id="mid2_gain" value="-17.4983"/>
+    <Param id="mid2_q" value="1.03"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Warm Bottom" category="Tone">
+    <Param id="high_freq" value="7897"/>
+    <Param id="high_gain" value="-2.017"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="152.5"/>
+    <Param id="low_gain" value="5.45689"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Presence" category="Tone">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="2565"/>
+    <Param id="mid2_gain" value="9.46865"/>
+    <Param id="mid2_q" value="1.025"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Smile Curve" category="Tone">
+    <Param id="high_freq" value="8218"/>
+    <Param id="high_gain" value="3.941"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="101.8"/>
+    <Param id="low_gain" value="5.71098"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="877.2"/>
+    <Param id="mid_gain" value="-2.492"/>
+    <Param id="mid_q" value="0.6874"/>
+  </Preset>
+  <Preset name="Vintage Console" category="Tone">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="16020"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="79.47"/>
+    <Param id="low_gain" value="12.7524"/>
+    <Param id="lowcut" value="30.02"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1225"/>
+    <Param id="mid_gain" value="1.529"/>
+    <Param id="mid_q" value="0.8086"/>
+  </Preset>
+  <Preset name="Boxy Body" category="Tone">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="513.6"/>
+    <Param id="mid_gain" value="5.6156"/>
+    <Param id="mid_q" value="1.165"/>
+  </Preset>
+  <Preset name="Dark Velvet" category="Tone">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="4528"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="199.9"/>
+    <Param id="low_gain" value="1.956"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="2534"/>
+    <Param id="mid2_gain" value="-2.054"/>
+    <Param id="mid2_q" value="0.7789"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Bright Pop" category="Tone">
+    <Param id="high_freq" value="10180"/>
+    <Param id="high_gain" value="2.919"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="49.13"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="4546"/>
+    <Param id="mid2_gain" value="3.40038"/>
+    <Param id="mid2_q" value="0.8813"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Vocal Presence" category="Tone">
+    <Param id="high_freq" value="9035"/>
+    <Param id="high_gain" value="1.991"/>
+    <Param id="lowcut" value="90.32"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="2860"/>
+    <Param id="mid_gain" value="2.991"/>
+    <Param id="mid_q" value="0.8759"/>
+  </Preset>
+  <Preset name="Warm Blanket" category="Tone">
+    <Param id="high_freq" value="8144"/>
+    <Param id="high_gain" value="-2.939"/>
+    <Param id="low_freq" value="175.9"/>
+    <Param id="low_gain" value="4.5253"/>
+    <Param id="mid2_freq" value="3574"/>
+    <Param id="mid2_gain" value="-1.988"/>
+    <Param id="mid2_q" value="0.6832"/>
+  </Preset>
+  <Preset name="Glass Top" category="Tone">
+    <Param id="high_freq" value="6128"/>
+    <Param id="high_gain" value="3.988"/>
+    <Param id="mid_freq" value="409.9"/>
+    <Param id="mid_gain" value="-5.46761"/>
+    <Param id="mid_q" value="0.8217"/>
+  </Preset>
+  <Preset name="Open Sky" category="Tone">
+    <Param id="high_freq" value="11790"/>
+    <Param id="high_gain" value="4.388"/>
+    <Param id="lowcut" value="39.12"/>
+  </Preset>
+  <Preset name="Loudness Contour" category="Tone">
+    <Param id="high_freq" value="9221"/>
+    <Param id="high_gain" value="3.06"/>
+    <Param id="low_freq" value="99.43"/>
+    <Param id="low_gain" value="6.80947"/>
+    <Param id="mid_freq" value="1022"/>
+    <Param id="mid_gain" value="-1.525"/>
+    <Param id="mid_q" value="0.6155"/>
+  </Preset>
+  <Preset name="Mid Focus" category="Tone">
+    <Param id="high_freq" value="8733"/>
+    <Param id="high_gain" value="-1.945"/>
+    <Param id="low_freq" value="118.4"/>
+    <Param id="low_gain" value="-5.93054"/>
+    <Param id="mid_freq" value="1182"/>
+    <Param id="mid_gain" value="3.04"/>
+    <Param id="mid_q" value="0.6905"/>
+  </Preset>
+  <Preset name="Midnight Velvet" category="Tone">
+    <Param id="high_freq" value="3017"/>
+    <Param id="high_gain" value="-3.085"/>
+    <Param id="highcut" value="4989"/>
+    <Param id="low_freq" value="195.9"/>
+    <Param id="low_gain" value="1.505"/>
+  </Preset>
+  <Preset name="Bright Strings" category="Tone">
+    <Param id="high_freq" value="10720"/>
+    <Param id="high_gain" value="2.038"/>
+    <Param id="lowcut" value="80.15"/>
+    <Param id="mid2_freq" value="5085"/>
+    <Param id="mid2_gain" value="2.541"/>
+    <Param id="mid2_q" value="0.8123"/>
+  </Preset>
+  <Preset name="Low Mid Warmth" category="Tone">
+    <Param id="mid_freq" value="322.2"/>
+    <Param id="mid_gain" value="4.24956"/>
+    <Param id="mid_q" value="0.8156"/>
+  </Preset>
+  <Preset name="Sub Sculpt" category="Bass">
+    <Param id="low_freq" value="60.73"/>
+    <Param id="low_gain" value="18"/>
+    <Param id="lowcut" value="29.99"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="243.8"/>
+    <Param id="mid_gain" value="-4.5271"/>
+    <Param id="mid_q" value="1.004"/>
+  </Preset>
+  <Preset name="Bass Pluck Bite" category="Bass">
+    <Param id="highcut" value="5908"/>
+    <Param id="low_freq" value="81.59"/>
+    <Param id="low_gain" value="1.977"/>
+    <Param id="mid_freq" value="906.1"/>
+    <Param id="mid_gain" value="3.05"/>
+    <Param id="mid_q" value="1.201"/>
+  </Preset>
+  <Preset name="Kick Knock" category="Bass">
+    <Param id="mid2_freq" value="3581"/>
+    <Param id="mid2_gain" value="2.916"/>
+    <Param id="mid2_q" value="1.455"/>
+    <Param id="mid_freq" value="107.9"/>
+    <Param id="mid_gain" value="5.95508"/>
+    <Param id="mid_q" value="1.186"/>
+  </Preset>
+  <Preset name="Nasal Honk" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="202.9"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="981.3"/>
+    <Param id="mid_gain" value="7.913"/>
+    <Param id="mid_q" value="2.504"/>
+  </Preset>
+  <Preset name="Radio" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="3605"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="514.2"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1480"/>
+    <Param id="mid_gain" value="4.08"/>
+    <Param id="mid_q" value="0.9832"/>
+  </Preset>
+  <Preset name="Telephone" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="2877"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="689.6"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1406"/>
+    <Param id="mid_gain" value="6.123"/>
+    <Param id="mid_q" value="1.474"/>
+  </Preset>
+  <Preset name="Behind The Wall" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="914.1"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="low_freq" value="116.7"/>
+    <Param id="low_gain" value="2.037"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Muffled Club" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="609"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="low_freq" value="89.33"/>
+    <Param id="low_gain" value="2.92"/>
+    <Param id="lowcut" value="39.43"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1000"/>
+    <Param id="mid_gain" value="0"/>
+    <Param id="mid_q" value="0.9"/>
+  </Preset>
+  <Preset name="Old Record" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="5985"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="147.1"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="2203"/>
+    <Param id="mid_gain" value="3.022"/>
+    <Param id="mid_q" value="0.885"/>
+  </Preset>
+  <Preset name="Resonant Peak" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1617"/>
+    <Param id="mid_gain" value="15.5764"/>
+    <Param id="mid_q" value="8.201"/>
+  </Preset>
+  <Preset name="Notch Sweep Spot" category="Character">
+    <Param id="high_freq" value="7000"/>
+    <Param id="high_gain" value="0"/>
+    <Param id="highcut" value="20000"/>
+    <Param id="highcut_slope" value="0"/>
+    <Param id="low_freq" value="120"/>
+    <Param id="low_gain" value="0"/>
+    <Param id="lowcut" value="20"/>
+    <Param id="lowcut_slope" value="0"/>
+    <Param id="mid2_freq" value="3000"/>
+    <Param id="mid2_gain" value="0"/>
+    <Param id="mid2_q" value="0.9"/>
+    <Param id="mid_freq" value="1179"/>
+    <Param id="mid_gain" value="-18"/>
+    <Param id="mid_q" value="9.823"/>
+  </Preset>
+  <Preset name="Landline" category="Character">
+    <Param id="highcut" value="3129"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="lowcut" value="506.2"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="1484"/>
+    <Param id="mid_gain" value="4.031"/>
+    <Param id="mid_q" value="1.025"/>
+  </Preset>
+  <Preset name="AM Radio" category="Character">
+    <Param id="highcut" value="4568"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="lowcut" value="307.3"/>
+    <Param id="lowcut_slope" value="1"/>
+    <Param id="mid_freq" value="1210"/>
+    <Param id="mid_gain" value="3.005"/>
+    <Param id="mid_q" value="0.7788"/>
+  </Preset>
+  <Preset name="Through The Wall" category="Character">
+    <Param id="highcut" value="694.9"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="low_freq" value="152.8"/>
+    <Param id="low_gain" value="3.077"/>
+  </Preset>
+  <Preset name="Club Next Door" category="Character">
+    <Param id="highcut" value="1205"/>
+    <Param id="highcut_slope" value="1"/>
+    <Param id="low_freq" value="91.77"/>
+    <Param id="low_gain" value="3.889"/>
+  </Preset>
+  <Preset name="Singing Peak" category="Character">
+    <Param id="highcut" value="9077"/>
+    <Param id="mid_freq" value="1761"/>
+    <Param id="mid_gain" value="8.821"/>
+    <Param id="mid_q" value="5.964"/>
+  </Preset>
+  <Preset name="Formant Ah" category="Character">
+    <Param id="mid2_freq" value="1179"/>
+    <Param id="mid2_gain" value="5.075"/>
+    <Param id="mid2_q" value="3.067"/>
+    <Param id="mid_freq" value="760.8"/>
+    <Param id="mid_gain" value="6.894"/>
+    <Param id="mid_q" value="2.918"/>
+  </Preset>
+  <Preset name="Formant Ee" category="Character">
+    <Param id="mid2_freq" value="2308"/>
+    <Param id="mid2_gain" value="5.895"/>
+    <Param id="mid2_q" value="3.087"/>
+    <Param id="mid_freq" value="298.5"/>
+    <Param id="mid_gain" value="5.868"/>
+    <Param id="mid_q" value="3.014"/>
+  </Preset>
+</FjordFxPresets>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="squash">
+  <Preset name="Gentle Lift" category="Subtle">
+    <Param id="depth" value="0.981875"/>
+    <Param id="mix" value="0.5828"/>
+    <Param id="time" value="0.5"/>
+    <Param id="upward" value="0.49"/>
+  </Preset>
+  <Preset name="Detail Enhancer" category="Subtle">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.494"/>
+    <Param id="time" value="0.4"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Air And Breath" category="Subtle">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.4377"/>
+    <Param id="time" value="0.3"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Quiet Made Loud" category="Subtle">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.3936"/>
+    <Param id="time" value="0.6"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Half Squashed" category="Subtle">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5073"/>
+    <Param id="time" value="0.4"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Even Mix" category="Subtle">
+    <Param id="depth" value="0.760334"/>
+    <Param id="mix" value="0.7024"/>
+    <Param id="time" value="0.7"/>
+    <Param id="upward" value="0.4"/>
+  </Preset>
+  <Preset name="Bright Edge" category="Subtle">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5524"/>
+    <Param id="time" value="0.3"/>
+    <Param id="upward" value="0.974769"/>
+  </Preset>
+  <Preset name="Dense Pad" category="Glue">
+    <Param id="depth" value="0.4876"/>
+    <Param id="time" value="0.7"/>
+    <Param id="upward" value="0.6049"/>
+  </Preset>
+  <Preset name="Wide Bus Glue" category="Glue">
+    <Param id="depth" value="0.775052"/>
+    <Param id="mix" value="0.6973"/>
+    <Param id="time" value="0.6"/>
+    <Param id="upward" value="0.4027"/>
+  </Preset>
+  <Preset name="Chord Thickener" category="Glue">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.6087"/>
+    <Param id="out" value="2.029"/>
+    <Param id="time" value="0.5"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Synth Wall" category="Glue">
+    <Param id="depth" value="0.733018"/>
+    <Param id="out" value="2.054"/>
+    <Param id="time" value="0.55"/>
+    <Param id="upward" value="0.4978"/>
+  </Preset>
+  <Preset name="Choir Blanket" category="Glue">
+    <Param id="depth" value="0.908533"/>
+    <Param id="mix" value="0.616"/>
+    <Param id="time" value="0.8"/>
+    <Param id="upward" value="0.7936"/>
+  </Preset>
+  <Preset name="Keys Body" category="Glue">
+    <Param id="depth" value="0.821539"/>
+    <Param id="mix" value="0.6583"/>
+    <Param id="time" value="0.45"/>
+    <Param id="upward" value="0.5146"/>
+  </Preset>
+  <Preset name="Pluck Sustain" category="Glue">
+    <Param id="depth" value="0.916853"/>
+    <Param id="mix" value="0.6111"/>
+    <Param id="time" value="0.5"/>
+    <Param id="upward" value="0.8866"/>
+  </Preset>
+  <Preset name="Sub Control" category="Glue">
+    <Param id="depth" value="0.748174"/>
+    <Param id="mix" value="0.7129"/>
+    <Param id="time" value="0.3"/>
+    <Param id="upward" value="0.1958"/>
+  </Preset>
+  <Preset name="Full Squash" category="Heavy">
+    <Param id="depth" value="1"/>
+    <Param id="out" value="4.055"/>
+    <Param id="time" value="0.4"/>
+    <Param id="upward" value="0.8165"/>
+  </Preset>
+  <Preset name="Maximum Detail" category="Heavy">
+    <Param id="depth" value="0.9011"/>
+    <Param id="out" value="3.988"/>
+    <Param id="time" value="0.3"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Drum Bus Smash" category="Heavy">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.7174"/>
+    <Param id="out" value="3.966"/>
+    <Param id="time" value="0.2"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Breathing Monster" category="Heavy">
+    <Param id="depth" value="0.9385"/>
+    <Param id="out" value="4.049"/>
+    <Param id="time" value="0.9"/>
+    <Param id="upward" value="0.8842"/>
+  </Preset>
+  <Preset name="Bass Growler" category="Heavy">
+    <Param id="depth" value="0.7422"/>
+    <Param id="out" value="4.079"/>
+    <Param id="time" value="0.35"/>
+    <Param id="upward" value="0.5044"/>
+  </Preset>
+  <Preset name="Lead Presence" category="Heavy">
+    <Param id="depth" value="0.878989"/>
+    <Param id="mix" value="0.8188"/>
+    <Param id="out" value="1.993"/>
+    <Param id="time" value="0.25"/>
+    <Param id="upward" value="0.6895"/>
+  </Preset>
+  <Preset name="Hyper Pop" category="Heavy">
+    <Param id="depth" value="0.858"/>
+    <Param id="out" value="4.094"/>
+    <Param id="time" value="0.2"/>
+    <Param id="upward" value="0.7878"/>
+  </Preset>
+  <Preset name="Fast Dance" category="Rhythmic">
+    <Param id="depth" value="0.730731"/>
+    <Param id="out" value="1.951"/>
+    <Param id="time" value="0.05"/>
+    <Param id="upward" value="0.5104"/>
+  </Preset>
+  <Preset name="Snappy Loop" category="Rhythmic">
+    <Param id="depth" value="0.979536"/>
+    <Param id="mix" value="0.7545"/>
+    <Param id="out" value="1.948"/>
+    <Param id="time" value="0.1"/>
+    <Param id="upward" value="0.4078"/>
+  </Preset>
+  <Preset name="Pumping Air" category="Rhythmic">
+    <Param id="depth" value="0.722166"/>
+    <Param id="out" value="1.988"/>
+    <Param id="time" value="0.15"/>
+    <Param id="upward" value="0.8789"/>
+  </Preset>
+  <Preset name="Tight Hats" category="Rhythmic">
+    <Param id="depth" value="0.891815"/>
+    <Param id="mix" value="0.6177"/>
+    <Param id="time" value="0"/>
+    <Param id="upward" value="0.2969"/>
+  </Preset>
+  <Preset name="Slow Swell" category="Rhythmic">
+    <Param id="depth" value="0.724591"/>
+    <Param id="out" value="1.945"/>
+    <Param id="time" value="1"/>
+    <Param id="upward" value="0.7873"/>
+  </Preset>
+  <Preset name="Ghost Notes Up" category="Rhythmic">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5597"/>
+    <Param id="time" value="0.2"/>
+    <Param id="upward" value="0.996151"/>
+  </Preset>
+  <Preset name="Vocal Forward" category="Voice">
+    <Param id="depth" value="0.950964"/>
+    <Param id="mix" value="0.5895"/>
+    <Param id="time" value="0.35"/>
+    <Param id="upward" value="0.5969"/>
+  </Preset>
+  <Preset name="Whisper Booster" category="Voice">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5125"/>
+    <Param id="time" value="0.4"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Rap Density" category="Voice">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.7178"/>
+    <Param id="out" value="1.986"/>
+    <Param id="time" value="0.25"/>
+    <Param id="upward" value="0.503846"/>
+  </Preset>
+  <Preset name="Choir Detail" category="Voice">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5098"/>
+    <Param id="time" value="0.6"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Podcast Even" category="Voice">
+    <Param id="depth" value="0.667507"/>
+    <Param id="mix" value="0.7875"/>
+    <Param id="time" value="0.5"/>
+    <Param id="upward" value="0.5903"/>
+  </Preset>
+  <Preset name="Sampled Voice Grit" category="Voice">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.7197"/>
+    <Param id="out" value="2.058"/>
+    <Param id="time" value="0.3"/>
+    <Param id="upward" value="0.782"/>
+  </Preset>
+  <Preset name="Texture Revealer" category="Sound Design">
+    <Param id="depth" value="0.8268"/>
+    <Param id="out" value="4.095"/>
+    <Param id="time" value="0.5"/>
+    <Param id="upward" value="0.9939"/>
+  </Preset>
+  <Preset name="Field Recording Lift" category="Sound Design">
+    <Param id="depth" value="0.869542"/>
+    <Param id="mix" value="0.798"/>
+    <Param id="out" value="1.968"/>
+    <Param id="time" value="0.7"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Noise Floor Show" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.6037"/>
+    <Param id="out" value="4.095"/>
+    <Param id="time" value="0.8"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Granular Glue" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.6403"/>
+    <Param id="out" value="1.971"/>
+    <Param id="time" value="0.45"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Tail Extender" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.5049"/>
+    <Param id="out" value="1.946"/>
+    <Param id="time" value="0.9"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Reverb Bloom" category="Sound Design">
+    <Param id="depth" value="1"/>
+    <Param id="mix" value="0.4404"/>
+    <Param id="time" value="0.75"/>
+    <Param id="upward" value="1"/>
+  </Preset>
+  <Preset name="Crowd Noise" category="Sound Design">
+    <Param id="depth" value="0.7388"/>
+    <Param id="out" value="4.004"/>
+    <Param id="time" value="0.6"/>
+    <Param id="upward" value="0.8318"/>
+  </Preset>
+</FjordFxPresets>

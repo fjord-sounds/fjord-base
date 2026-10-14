@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="width">
+  <Preset name="Mono" category="Narrow">
+    <Param id="amount" value="0"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Almost Mono" category="Narrow">
+    <Param id="amount" value="0.1492"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Mono Bass Feel" category="Narrow">
+    <Param id="amount" value="0.2949"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Focused" category="Narrow">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Centred" category="Narrow">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Slightly Narrow" category="Narrow">
+    <Param id="amount" value="1.9123"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Tighter" category="Narrow">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Focused Lead" category="Narrow">
+    <Param id="amount" value="0.6103"/>
+    <Param id="mono" value="197.6"/>
+  </Preset>
+  <Preset name="Centre Vocal" category="Narrow">
+    <Param id="amount" value="0.5039"/>
+    <Param id="mono" value="246.8"/>
+  </Preset>
+  <Preset name="Narrow Bass Pad" category="Narrow">
+    <Param id="amount" value="0.7916"/>
+    <Param id="mono" value="407"/>
+  </Preset>
+  <Preset name="Neutral" category="Natural">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Touch Wider" category="Natural">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Open" category="Natural">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Airy" category="Natural">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Roomy" category="Natural">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Club Safe" category="Natural">
+    <Param id="amount" value="1.067"/>
+    <Param id="mono" value="152"/>
+  </Preset>
+  <Preset name="Mono Below 300" category="Natural">
+    <Param id="amount" value="1.013"/>
+    <Param id="mono" value="301.1"/>
+  </Preset>
+  <Preset name="Vinyl Safe" category="Natural">
+    <Param id="amount" value="1.014"/>
+    <Param id="mono" value="249.2"/>
+  </Preset>
+  <Preset name="Gentle Spread" category="Natural">
+    <Param id="amount" value="1.137"/>
+    <Param id="haas" value="2.936"/>
+    <Param id="mono" value="99.46"/>
+  </Preset>
+  <Preset name="Room Image" category="Natural">
+    <Param id="amount" value="1.181"/>
+    <Param id="haas" value="7.778"/>
+    <Param id="mono" value="122.4"/>
+  </Preset>
+  <Preset name="Mono Low End Only" category="Natural">
+    <Param id="amount" value="1.014"/>
+    <Param id="mono" value="123.5"/>
+  </Preset>
+  <Preset name="Almost Wide" category="Natural">
+    <Param id="amount" value="1.069"/>
+    <Param id="mono" value="77.96"/>
+  </Preset>
+  <Preset name="Wide" category="Wide">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Spacious" category="Wide">
+    <Param id="amount" value="2"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Panorama" category="Wide">
+    <Param id="amount" value="1.8187"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Very Wide" category="Wide">
+    <Param id="amount" value="1.748"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Cinemascope" category="Wide">
+    <Param id="amount" value="1.768"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Haas Widener" category="Wide">
+    <Param id="amount" value="1.117"/>
+    <Param id="haas" value="12.18"/>
+    <Param id="mono" value="116.8"/>
+  </Preset>
+  <Preset name="Subtle Haas" category="Wide">
+    <Param id="amount" value="1.025"/>
+    <Param id="haas" value="5.936"/>
+    <Param id="mono" value="153.2"/>
+  </Preset>
+  <Preset name="Mono Bass Wide Top" category="Wide">
+    <Param id="amount" value="1.511"/>
+    <Param id="mono" value="202.7"/>
+  </Preset>
+  <Preset name="Wide Pad Bed" category="Wide">
+    <Param id="amount" value="1.569"/>
+    <Param id="mono" value="181.2"/>
+  </Preset>
+  <Preset name="Haas Guitar" category="Wide">
+    <Param id="amount" value="0.9807"/>
+    <Param id="haas" value="18.43"/>
+    <Param id="mono" value="139.9"/>
+  </Preset>
+  <Preset name="Stereo Doubler Feel" category="Wide">
+    <Param id="amount" value="1.291"/>
+    <Param id="haas" value="14.78"/>
+    <Param id="mono" value="159.4"/>
+  </Preset>
+  <Preset name="Shoulder Width" category="Wide">
+    <Param id="amount" value="1.258"/>
+    <Param id="haas" value="4.887"/>
+    <Param id="mono" value="128"/>
+  </Preset>
+  <Preset name="Out Of The Speakers" category="Extreme">
+    <Param id="amount" value="1.883"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Maximum" category="Extreme">
+    <Param id="amount" value="1.993"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Wrap Around" category="Extreme">
+    <Param id="amount" value="1.934"/>
+    <Param id="haas" value="0"/>
+    <Param id="mono" value="20"/>
+  </Preset>
+  <Preset name="Huge Haas" category="Extreme">
+    <Param id="amount" value="1.379"/>
+    <Param id="haas" value="25.02"/>
+    <Param id="mono" value="185.2"/>
+  </Preset>
+  <Preset name="Wider Than Speakers" category="Extreme">
+    <Param id="amount" value="1.946"/>
+    <Param id="haas" value="10.25"/>
+    <Param id="mono" value="205.4"/>
+  </Preset>
+  <Preset name="Hard Haas" category="Extreme">
+    <Param id="amount" value="1.009"/>
+    <Param id="haas" value="29.43"/>
+    <Param id="mono" value="248.3"/>
+  </Preset>
+  <Preset name="Ghost Width" category="Extreme">
+    <Param id="amount" value="1.827"/>
+    <Param id="haas" value="20.03"/>
+    <Param id="mono" value="292.1"/>
+  </Preset>
+</FjordFxPresets>

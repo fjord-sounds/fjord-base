@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="lofi">
+  <Preset name="A Touch Of Grit" category="Subtle">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="12"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.2989"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="1"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Old Sampler" category="Subtle">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="12"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.6123"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="2.059"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Cassette Dust" category="Subtle">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="11"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.3403"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="1.491"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Vintage 12 Bit" category="Subtle">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="12"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.9754"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="3.08"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Warm Lo-Fi" category="Subtle">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="10"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.4971"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="2.444"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Bedroom Demo" category="Subtle">
+    <Param id="age" value="0.2501"/>
+    <Param id="flutter" value="0.1028"/>
+    <Param id="mix" value="0.5075"/>
+    <Param id="noise" value="0.07862"/>
+    <Param id="wow" value="0.153"/>
+  </Preset>
+  <Preset name="Faint Grain" category="Subtle">
+    <Param id="age" value="0.1466"/>
+    <Param id="bits" value="14"/>
+    <Param id="flutter" value="0.05029"/>
+    <Param id="mix" value="0.4099"/>
+    <Param id="noise" value="0.1187"/>
+    <Param id="wow" value="0.05132"/>
+  </Preset>
+  <Preset name="Soft Focus" category="Subtle">
+    <Param id="age" value="0.345"/>
+    <Param id="flutter" value="0"/>
+    <Param id="mix" value="0.5354"/>
+    <Param id="noise" value="0"/>
+    <Param id="wow" value="0.09703"/>
+  </Preset>
+  <Preset name="Hint Of Hiss" category="Subtle">
+    <Param id="age" value="0.05116"/>
+    <Param id="flutter" value="0"/>
+    <Param id="mix" value="0.5052"/>
+    <Param id="noise" value="0.2427"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Worn Cassette" category="Tape">
+    <Param id="age" value="0.4537"/>
+    <Param id="bits" value="16"/>
+    <Param id="flutter" value="0.2514"/>
+    <Param id="noise" value="0.1504"/>
+    <Param id="rate" value="1"/>
+    <Param id="wow" value="0.3584"/>
+  </Preset>
+  <Preset name="Summer Camcorder" category="Tape">
+    <Param id="age" value="0.6041"/>
+    <Param id="bits" value="14"/>
+    <Param id="flutter" value="0.3027"/>
+    <Param id="noise" value="0.2011"/>
+    <Param id="rate" value="1.5"/>
+    <Param id="wow" value="0.4854"/>
+  </Preset>
+  <Preset name="Answering Machine" category="Tape">
+    <Param id="age" value="0.8734"/>
+    <Param id="bits" value="10"/>
+    <Param id="flutter" value="0.5022"/>
+    <Param id="mix" value="0.8865"/>
+    <Param id="noise" value="0.3004"/>
+    <Param id="rate" value="3"/>
+    <Param id="wow" value="0.2445"/>
+  </Preset>
+  <Preset name="Dictaphone Diary" category="Tape">
+    <Param id="age" value="0.7429"/>
+    <Param id="bits" value="12"/>
+    <Param id="flutter" value="0.5946"/>
+    <Param id="noise" value="0.341"/>
+    <Param id="rate" value="2"/>
+    <Param id="wow" value="0.3012"/>
+  </Preset>
+  <Preset name="Warped Vinyl" category="Tape">
+    <Param id="age" value="0.4076"/>
+    <Param id="bits" value="16"/>
+    <Param id="flutter" value="0.09916"/>
+    <Param id="noise" value="0.09832"/>
+    <Param id="rate" value="1"/>
+    <Param id="wow" value="0.8079"/>
+  </Preset>
+  <Preset name="Seasick Reel" category="Tape">
+    <Param id="age" value="0.3065"/>
+    <Param id="bits" value="16"/>
+    <Param id="flutter" value="0.197"/>
+    <Param id="mix" value="0.8285"/>
+    <Param id="noise" value="0.04935"/>
+    <Param id="rate" value="1"/>
+    <Param id="wow" value="1"/>
+  </Preset>
+  <Preset name="Tape Haze" category="Tape">
+    <Param id="age" value="0.2968"/>
+    <Param id="flutter" value="0.147"/>
+    <Param id="mix" value="0.6114"/>
+    <Param id="noise" value="0.1231"/>
+    <Param id="wow" value="0.2009"/>
+  </Preset>
+  <Preset name="Gentle Wobble" category="Tape">
+    <Param id="age" value="0.09986"/>
+    <Param id="flutter" value="0.04893"/>
+    <Param id="mix" value="0.7043"/>
+    <Param id="noise" value="0"/>
+    <Param id="wow" value="0.2572"/>
+  </Preset>
+  <Preset name="Sampler 26k" category="Digital">
+    <Param id="age" value="0.1462"/>
+    <Param id="bits" value="12"/>
+    <Param id="flutter" value="0"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="1.7"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Early Drum Machine" category="Digital">
+    <Param id="age" value="0.1985"/>
+    <Param id="bits" value="8"/>
+    <Param id="flutter" value="0"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="2.5"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Handheld Console" category="Digital">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="5"/>
+    <Param id="flutter" value="0"/>
+    <Param id="mix" value="0.7866"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="4"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Jittery Converter" category="Digital">
+    <Param id="age" value="0.1002"/>
+    <Param id="bits" value="10"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0.5872"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="3"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Crushed Hats" category="Digital">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="6"/>
+    <Param id="flutter" value="0"/>
+    <Param id="mix" value="0.6013"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="8"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Pixel Dust" category="Digital">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="4"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0.3067"/>
+    <Param id="mix" value="0.4501"/>
+    <Param id="noise" value="0.05117"/>
+    <Param id="rate" value="12"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Toy Keyboard" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="8"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.802"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="4.006"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="8 Bit Console" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="8"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="1"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="5.979"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Handheld" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="6"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.907"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="5.138"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Phone Line" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="9"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="1"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="8.153"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Arcade" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="7"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.8602"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="3.443"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Walkie Talkie" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="6"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="1"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="9.802"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Aliasing Shimmer" category="Character">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="14"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.4051"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="12.26"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Phone Speaker" category="Character">
+    <Param id="age" value="1"/>
+    <Param id="bits" value="8"/>
+    <Param id="flutter" value="0.09731"/>
+    <Param id="noise" value="0.09844"/>
+    <Param id="rate" value="3"/>
+    <Param id="wow" value="0.04972"/>
+  </Preset>
+  <Preset name="Old Radio Song" category="Character">
+    <Param id="age" value="0.8936"/>
+    <Param id="bits" value="11"/>
+    <Param id="flutter" value="0.3006"/>
+    <Param id="noise" value="0.4024"/>
+    <Param id="rate" value="2"/>
+    <Param id="wow" value="0.1537"/>
+  </Preset>
+  <Preset name="Attic Discovery" category="Character">
+    <Param id="age" value="0.6836"/>
+    <Param id="bits" value="13"/>
+    <Param id="flutter" value="0.3448"/>
+    <Param id="noise" value="0.5145"/>
+    <Param id="rate" value="1.3"/>
+    <Param id="wow" value="0.4431"/>
+  </Preset>
+  <Preset name="Memory Of A Song" category="Character">
+    <Param id="age" value="0.5498"/>
+    <Param id="bits" value="14"/>
+    <Param id="flutter" value="0.3894"/>
+    <Param id="mix" value="0.7421"/>
+    <Param id="noise" value="0.255"/>
+    <Param id="rate" value="1.2"/>
+    <Param id="wow" value="0.5922"/>
+  </Preset>
+  <Preset name="Underwater Boombox" category="Character">
+    <Param id="age" value="0.9365"/>
+    <Param id="bits" value="9"/>
+    <Param id="flutter" value="0.596"/>
+    <Param id="noise" value="0.2059"/>
+    <Param id="rate" value="2.2"/>
+    <Param id="wow" value="0.7047"/>
+  </Preset>
+  <Preset name="Parallel Crunch" category="Blend">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="6"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.2505"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="2.945"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Sparkle Crush" category="Blend">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="10"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.297"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="15.65"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Gentle Decimate" category="Blend">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="16"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.512"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="3.91"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Lo-Fi Bus" category="Blend">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="9"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.45"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="2.187"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Crushed Air" category="Heavy">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="4"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.4895"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="1.989"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Broken Chip" category="Heavy">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="4"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.8888"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="14.11"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Digital Rain" category="Heavy">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="5"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.6032"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="19.85"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Bit Storm" category="Heavy">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="3"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.7102"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="8.176"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Two Bit Ghost" category="Heavy">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="2"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.3084"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="3.97"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Robot Voice" category="Heavy">
+    <Param id="age" value="0"/>
+    <Param id="bits" value="5"/>
+    <Param id="flutter" value="0"/>
+    <Param id="jitter" value="0"/>
+    <Param id="mix" value="0.986"/>
+    <Param id="noise" value="0"/>
+    <Param id="rate" value="24.84"/>
+    <Param id="wow" value="0"/>
+  </Preset>
+  <Preset name="Broken Walkman" category="Heavy">
+    <Param id="age" value="0.7826"/>
+    <Param id="bits" value="9"/>
+    <Param id="flutter" value="0.9169"/>
+    <Param id="noise" value="0.4594"/>
+    <Param id="rate" value="2.5"/>
+    <Param id="wow" value="0.9066"/>
+  </Preset>
+</FjordFxPresets>

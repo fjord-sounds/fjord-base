@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<@Name@Preset name="Soft Saw" category="Basics" author="Fjord" tags="Warm,Soft">
+  <Param id="osc_wave" value="2"/>
+  <Param id="filter_cutoff" value="1800"/>
+  <Param id="filter_reso" value="0.25"/>
+  <Param id="amp_attack" value="0.02"/>
+  <Param id="amp_release" value="0.8"/>
+  <Param id="fx_reverb_on" value="1"/>
+  <Param id="fx_reverb_mix" value="0.2"/>
+  <Param id="fx_out_on" value="1"/>
+</@Name@Preset>

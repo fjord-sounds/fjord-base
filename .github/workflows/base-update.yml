@@ -1,0 +1,55 @@
+name: fjord-base update
+
+# Reusable weekly check for a plugin: is there a newer fjord-base release than FJORD_BASE_TAG? Then it opens a pull
+# request that raises the pin in CMakeLists.txt. The plugin's CI builds and tests the new version, so nothing is
+# merged unchecked. (The reusable workflows are referenced with @main: a GITHUB_TOKEN may not change workflow files.)
+# Needs: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+#
+#   on: { schedule: [{ cron: "0 6 * * 1" }], workflow_dispatch: {} }
+#   permissions: { contents: write, pull-requests: write }
+#   jobs:
+#     check:
+#       uses: fjord-sounds/fjord-base/.github/workflows/base-update.yml@main
+on:
+  workflow_call:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compare with the latest fjord-base release
+        id: base
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CURRENT=$(sed -n 's/^set(FJORD_BASE_TAG "\(.*\)")/\1/p' CMakeLists.txt)
+          LATEST=$(git ls-remote --tags --refs https://github.com/fjord-sounds/fjord-base.git 'v*' \
+                   | sed 's#.*refs/tags/##' | sort -V | tail -n1)
+          echo "current=$CURRENT latest=$LATEST"
+          echo "current=$CURRENT" >> "$GITHUB_OUTPUT"
+          echo "latest=$LATEST" >> "$GITHUB_OUTPUT"
+          [ -n "$LATEST" ] && [ "$CURRENT" != "$LATEST" ] && echo "update=true" >> "$GITHUB_OUTPUT" || true
+
+      - name: Open pull request
+        if: steps.base.outputs.update == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CURRENT: ${{ steps.base.outputs.current }}
+          LATEST: ${{ steps.base.outputs.latest }}
+        run: |
+          BRANCH="fjord-base-$LATEST"
+          if git ls-remote --exit-code --heads origin "$BRANCH" > /dev/null; then echo "PR branch exists"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          sed -i "s/^set(FJORD_BASE_TAG \".*\")/set(FJORD_BASE_TAG \"$LATEST\")/" CMakeLists.txt
+          git commit -am "Update fjord-base to $LATEST"
+          git push origin "$BRANCH"
+          gh pr create --title "Update fjord-base to $LATEST" --head "$BRANCH" \
+            --body "fjord-base $CURRENT → $LATEST. See its [CHANGELOG](https://github.com/fjord-sounds/fjord-base/blob/$LATEST/CHANGELOG.md). Merge only if CI is green."

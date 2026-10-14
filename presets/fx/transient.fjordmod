@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="transient">
+  <Preset name="More Snap" category="Attack">
+    <Param id="attack" value="0.446"/>
+    <Param id="speed" value="0.6128"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Pick Attack" category="Attack">
+    <Param id="attack" value="0.5987"/>
+    <Param id="speed" value="0.8193"/>
+    <Param id="sustain" value="-0.09996"/>
+  </Preset>
+  <Preset name="Kick Click" category="Attack">
+    <Param id="attack" value="0.8201"/>
+    <Param id="out" value="-2.033"/>
+    <Param id="speed" value="0.9189"/>
+    <Param id="sustain" value="-0.2008"/>
+  </Preset>
+  <Preset name="Hammer Strike" category="Attack">
+    <Param id="attack" value="0.9942"/>
+    <Param id="out" value="-3.076"/>
+    <Param id="speed" value="0.8257"/>
+    <Param id="sustain" value="-0.3573"/>
+  </Preset>
+  <Preset name="Gentle Front" category="Attack">
+    <Param id="attack" value="0.349734"/>
+    <Param id="speed" value="0.4032"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Woodblock Tight" category="Attack">
+    <Param id="attack" value="0.793129"/>
+    <Param id="out" value="-1.022"/>
+    <Param id="speed" value="0.9585"/>
+    <Param id="sustain" value="-0.5973"/>
+  </Preset>
+  <Preset name="Piano Definition" category="Attack">
+    <Param id="attack" value="0.3397"/>
+    <Param id="speed" value="0.5012"/>
+    <Param id="sustain" value="0.1024"/>
+  </Preset>
+  <Preset name="Pluck Sharpener" category="Attack">
+    <Param id="attack" value="0.5474"/>
+    <Param id="speed" value="0.7012"/>
+    <Param id="sustain" value="-0.2495"/>
+  </Preset>
+  <Preset name="Clap Crack" category="Attack">
+    <Param id="attack" value="0.7446"/>
+    <Param id="out" value="-1.946"/>
+    <Param id="speed" value="0.8743"/>
+    <Param id="sustain" value="0.1004"/>
+  </Preset>
+  <Preset name="Guitar Strum Edge" category="Attack">
+    <Param id="attack" value="0.463499"/>
+    <Param id="speed" value="0.6152"/>
+    <Param id="sustain" value="-0.1514"/>
+  </Preset>
+  <Preset name="Vocal Consonants" category="Attack">
+    <Param id="attack" value="0.725973"/>
+    <Param id="mix" value="0.7168"/>
+    <Param id="speed" value="0.9062"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Velvet Hammers" category="Soften">
+    <Param id="attack" value="-0.623088"/>
+    <Param id="speed" value="0.5054"/>
+    <Param id="sustain" value="0.09788"/>
+  </Preset>
+  <Preset name="Rounded Edges" category="Soften">
+    <Param id="attack" value="-0.5905"/>
+    <Param id="speed" value="0.6008"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Brushed Drums" category="Soften">
+    <Param id="attack" value="-0.807"/>
+    <Param id="speed" value="0.6953"/>
+    <Param id="sustain" value="0.2051"/>
+  </Preset>
+  <Preset name="Pad From Pluck" category="Soften">
+    <Param id="attack" value="-0.9905"/>
+    <Param id="out" value="-2.02"/>
+    <Param id="speed" value="0.3009"/>
+    <Param id="sustain" value="0.586"/>
+  </Preset>
+  <Preset name="Felt Piano" category="Soften">
+    <Param id="attack" value="-0.759238"/>
+    <Param id="speed" value="0.4073"/>
+    <Param id="sustain" value="0.2451"/>
+  </Preset>
+  <Preset name="Tamed Peaks" category="Soften">
+    <Param id="attack" value="-0.69228"/>
+    <Param id="speed" value="0.8129"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Hat Tamer" category="Soften">
+    <Param id="attack" value="-0.596816"/>
+    <Param id="speed" value="0.8918"/>
+    <Param id="sustain" value="-0.1951"/>
+  </Preset>
+  <Preset name="Chord Smear" category="Soften">
+    <Param id="attack" value="-0.815666"/>
+    <Param id="speed" value="0.3084"/>
+    <Param id="sustain" value="0.3527"/>
+  </Preset>
+  <Preset name="Long Tail" category="Sustain">
+    <Param id="attack" value="0"/>
+    <Param id="out" value="-3.087"/>
+    <Param id="speed" value="0.4079"/>
+    <Param id="sustain" value="1"/>
+  </Preset>
+  <Preset name="Room Swell" category="Sustain">
+    <Param id="attack" value="-0.564051"/>
+    <Param id="out" value="-5.049"/>
+    <Param id="speed" value="0.2977"/>
+    <Param id="sustain" value="0.8765"/>
+  </Preset>
+  <Preset name="Bloom" category="Sustain">
+    <Param id="attack" value="-0.576803"/>
+    <Param id="out" value="-4.119"/>
+    <Param id="speed" value="0.205"/>
+    <Param id="sustain" value="0.7448"/>
+  </Preset>
+  <Preset name="Body Boost" category="Sustain">
+    <Param id="attack" value="0.269205"/>
+    <Param id="out" value="-2.024"/>
+    <Param id="speed" value="0.5131"/>
+    <Param id="sustain" value="0.4069"/>
+  </Preset>
+  <Preset name="Ring Out" category="Sustain">
+    <Param id="attack" value="0.1952"/>
+    <Param id="out" value="-6.008"/>
+    <Param id="speed" value="0.3501"/>
+    <Param id="sustain" value="0.9855"/>
+  </Preset>
+  <Preset name="Snare Body" category="Sustain">
+    <Param id="attack" value="0.288112"/>
+    <Param id="out" value="-3.024"/>
+    <Param id="speed" value="0.545"/>
+    <Param id="sustain" value="0.5512"/>
+  </Preset>
+  <Preset name="Vocal Air Release" category="Sustain">
+    <Param id="attack" value="-1"/>
+    <Param id="mix" value="0.6948"/>
+    <Param id="speed" value="0.6116"/>
+    <Param id="sustain" value="1"/>
+  </Preset>
+  <Preset name="Dry Stab" category="Shorten">
+    <Param id="attack" value="0.568576"/>
+    <Param id="speed" value="0.6803"/>
+    <Param id="sustain" value="-0.6795"/>
+  </Preset>
+  <Preset name="Tight Bass" category="Shorten">
+    <Param id="attack" value="0.613566"/>
+    <Param id="speed" value="0.61"/>
+    <Param id="sustain" value="-0.4968"/>
+  </Preset>
+  <Preset name="Gated Feel" category="Shorten">
+    <Param id="attack" value="0.500533"/>
+    <Param id="speed" value="0.8709"/>
+    <Param id="sustain" value="-1"/>
+  </Preset>
+  <Preset name="Clean Up Tails" category="Shorten">
+    <Param id="attack" value="0"/>
+    <Param id="speed" value="0.5035"/>
+    <Param id="sustain" value="-0.665427"/>
+  </Preset>
+  <Preset name="Staccato Keys" category="Shorten">
+    <Param id="attack" value="0.563733"/>
+    <Param id="speed" value="0.7537"/>
+    <Param id="sustain" value="-0.7966"/>
+  </Preset>
+  <Preset name="Punch And Ring" category="Shape">
+    <Param id="attack" value="0.6164"/>
+    <Param id="out" value="-4.024"/>
+    <Param id="speed" value="0.6046"/>
+    <Param id="sustain" value="0.5013"/>
+  </Preset>
+  <Preset name="Soft And Long" category="Shape">
+    <Param id="attack" value="-0.759843"/>
+    <Param id="out" value="-1.958"/>
+    <Param id="speed" value="0.406"/>
+    <Param id="sustain" value="0.5969"/>
+  </Preset>
+  <Preset name="Snappy And Short" category="Shape">
+    <Param id="attack" value="0.7055"/>
+    <Param id="speed" value="0.8221"/>
+    <Param id="sustain" value="-0.599"/>
+  </Preset>
+  <Preset name="Parallel Punch" category="Shape">
+    <Param id="attack" value="0.8953"/>
+    <Param id="mix" value="0.4853"/>
+    <Param id="speed" value="0.8166"/>
+    <Param id="sustain" value="-0.1979"/>
+  </Preset>
+  <Preset name="Half Shaped" category="Shape">
+    <Param id="attack" value="0.5092"/>
+    <Param id="mix" value="0.5929"/>
+    <Param id="speed" value="0.4977"/>
+    <Param id="sustain" value="0.2997"/>
+  </Preset>
+  <Preset name="Slow Detector" category="Shape">
+    <Param id="attack" value="0.494"/>
+    <Param id="speed" value="0.09739"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Fast Detector" category="Shape">
+    <Param id="attack" value="0.628541"/>
+    <Param id="speed" value="1"/>
+    <Param id="sustain" value="0"/>
+  </Preset>
+  <Preset name="Breathing Drums" category="Shape">
+    <Param id="attack" value="-0.710653"/>
+    <Param id="out" value="-1.956"/>
+    <Param id="speed" value="0.6109"/>
+    <Param id="sustain" value="0.5078"/>
+  </Preset>
+  <Preset name="Marimba Bounce" category="Shape">
+    <Param id="attack" value="0.5431"/>
+    <Param id="speed" value="0.7522"/>
+    <Param id="sustain" value="-0.2972"/>
+  </Preset>
+  <Preset name="Loop Glue" category="Shape">
+    <Param id="attack" value="0.320516"/>
+    <Param id="mix" value="0.7819"/>
+    <Param id="speed" value="0.5056"/>
+    <Param id="sustain" value="0.1512"/>
+  </Preset>
+</FjordFxPresets>

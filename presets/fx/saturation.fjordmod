@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="saturation">
+  <Preset name="Warm Tape" category="Tape">
+    <Param id="bias" value="0.3"/>
+    <Param id="drive" value="0.1963"/>
+    <Param id="mix" value="0.9748"/>
+    <Param id="mode" value="0"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.326"/>
+  </Preset>
+  <Preset name="Cassette Deck" category="Tape">
+    <Param id="bias" value="0.3"/>
+    <Param id="drive" value="0.314"/>
+    <Param id="mix" value="0.9933"/>
+    <Param id="mode" value="0"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.543889"/>
+  </Preset>
+  <Preset name="Hot Reel" category="Tape">
+    <Param id="bias" value="0.3"/>
+    <Param id="drive" value="0.5513"/>
+    <Param id="mix" value="0.8843"/>
+    <Param id="mode" value="0"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.397778"/>
+  </Preset>
+  <Preset name="Tape Glue" category="Tape">
+    <Param id="bias" value="0.3"/>
+    <Param id="drive" value="0.122"/>
+    <Param id="mix" value="0.9758"/>
+    <Param id="mode" value="0"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.214111"/>
+  </Preset>
+  <Preset name="Dusty Tape" category="Tape">
+    <Param id="bias" value="0.3"/>
+    <Param id="drive" value="0.4049"/>
+    <Param id="mix" value="0.8666"/>
+    <Param id="mode" value="0"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.669889"/>
+  </Preset>
+  <Preset name="Analog Breath" category="Tape">
+    <Param id="bias" value="0.2018"/>
+    <Param id="drive" value="0.1224"/>
+    <Param id="mix" value="1"/>
+    <Param id="mode" value="0"/>
+    <Param id="tone" value="-0.103"/>
+  </Preset>
+  <Preset name="Sunburnt Reel" category="Tape">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.3488"/>
+    <Param id="drive" value="0.428"/>
+    <Param id="mode" value="0"/>
+    <Param id="out" value="-1.963"/>
+    <Param id="tone" value="-0.348"/>
+  </Preset>
+  <Preset name="Half Inch Glow" category="Tape">
+    <Param id="bias" value="0.09845"/>
+    <Param id="drive" value="0.3033"/>
+    <Param id="mix" value="0.8018"/>
+    <Param id="mode" value="0"/>
+    <Param id="tone" value="0.09961"/>
+  </Preset>
+  <Preset name="Late Night Mixdown" category="Tape">
+    <Param id="autogain" value="1"/>
+    <Param id="drive" value="0.405404"/>
+    <Param id="mix" value="0.6623"/>
+    <Param id="mode" value="0"/>
+    <Param id="tone" value="-0.1955"/>
+  </Preset>
+  <Preset name="Tube Warmth" category="Tube">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.1821"/>
+    <Param id="mix" value="1"/>
+    <Param id="mode" value="1"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.281111"/>
+  </Preset>
+  <Preset name="Tube Preamp" category="Tube">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.3413"/>
+    <Param id="mix" value="0.9943"/>
+    <Param id="mode" value="1"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.327667"/>
+  </Preset>
+  <Preset name="Crunchy Tube" category="Tube">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.594"/>
+    <Param id="mix" value="0.8727"/>
+    <Param id="mode" value="1"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.375556"/>
+  </Preset>
+  <Preset name="Glowing Valves" category="Tube">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.4366"/>
+    <Param id="mix" value="0.692"/>
+    <Param id="mode" value="1"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.167111"/>
+  </Preset>
+  <Preset name="Soft Tube Blend" category="Tube">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.4902"/>
+    <Param id="mix" value="0.3941"/>
+    <Param id="mode" value="1"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.432889"/>
+  </Preset>
+  <Preset name="Velvet Valve" category="Tube">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.2481"/>
+    <Param id="drive" value="0.2432"/>
+    <Param id="mode" value="1"/>
+    <Param id="tone" value="-0.152"/>
+  </Preset>
+  <Preset name="Class A Pre" category="Tube">
+    <Param id="bias" value="0.3958"/>
+    <Param id="drive" value="0.3804"/>
+    <Param id="mode" value="1"/>
+    <Param id="out" value="-2.44"/>
+    <Param id="tone" value="0.04915"/>
+  </Preset>
+  <Preset name="Glowing Filament" category="Tube">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.1509"/>
+    <Param id="drive" value="0.5482"/>
+    <Param id="mix" value="0.7007"/>
+    <Param id="mode" value="1"/>
+    <Param id="tone" value="-0.2994"/>
+  </Preset>
+  <Preset name="Radio Choir Tube" category="Tube">
+    <Param id="bias" value="0.6013"/>
+    <Param id="drive" value="0.4863"/>
+    <Param id="mix" value="0.5892"/>
+    <Param id="mode" value="1"/>
+    <Param id="tone" value="0.3396"/>
+  </Preset>
+  <Preset name="Crisp Diode" category="Diode">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.2917"/>
+    <Param id="mode" value="2"/>
+    <Param id="tone" value="0.1981"/>
+  </Preset>
+  <Preset name="Fuzz Pedal Memory" category="Diode">
+    <Param id="bias" value="0.3023"/>
+    <Param id="drive" value="0.7467"/>
+    <Param id="mode" value="2"/>
+    <Param id="out" value="-6.099"/>
+    <Param id="tone" value="-0.1978"/>
+  </Preset>
+  <Preset name="Germanium Bloom" category="Diode">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="-0.2981"/>
+    <Param id="drive" value="0.4426"/>
+    <Param id="mix" value="0.8225"/>
+    <Param id="mode" value="2"/>
+    <Param id="tone" value="-0.3974"/>
+  </Preset>
+  <Preset name="Gentle Fold" category="Fold">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.1992"/>
+    <Param id="mix" value="0.6082"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.319111"/>
+  </Preset>
+  <Preset name="Harmonic Fold" category="Fold">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.4086"/>
+    <Param id="mix" value="0.7082"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.267556"/>
+  </Preset>
+  <Preset name="West Coast" category="Fold">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.6596"/>
+    <Param id="mix" value="0.7981"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.387222"/>
+  </Preset>
+  <Preset name="Folded Glass" category="Fold">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.4904"/>
+    <Param id="mix" value="0.486"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.0577778"/>
+  </Preset>
+  <Preset name="Deep Fold" category="Fold">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.8701"/>
+    <Param id="mix" value="0.5905"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.563778"/>
+  </Preset>
+  <Preset name="Silk Fold" category="Fold">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.1017"/>
+    <Param id="drive" value="0.249183"/>
+    <Param id="mix" value="0.6059"/>
+    <Param id="mode" value="3"/>
+    <Param id="tone" value="-0.2922"/>
+  </Preset>
+  <Preset name="Wavefolder Bells" category="Fold">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.3414"/>
+    <Param id="drive" value="0.5501"/>
+    <Param id="mix" value="0.6839"/>
+    <Param id="mode" value="3"/>
+    <Param id="tone" value="0.2055"/>
+  </Preset>
+  <Preset name="Origami Bass" category="Fold">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="-0.2005"/>
+    <Param id="drive" value="0.3947"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="2"/>
+    <Param id="tone" value="-0.5147"/>
+  </Preset>
+  <Preset name="Fold Shimmer" category="Fold">
+    <Param id="bias" value="0.5057"/>
+    <Param id="drive" value="0.6883"/>
+    <Param id="mix" value="0.3433"/>
+    <Param id="mode" value="3"/>
+    <Param id="os" value="2"/>
+    <Param id="tone" value="0.3905"/>
+  </Preset>
+  <Preset name="Edge" category="Hard">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.2443"/>
+    <Param id="mix" value="0.5961"/>
+    <Param id="mode" value="4"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.217556"/>
+  </Preset>
+  <Preset name="Fuzz Box" category="Hard">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.685"/>
+    <Param id="mix" value="0.8082"/>
+    <Param id="mode" value="4"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.459778"/>
+  </Preset>
+  <Preset name="Broken Speaker" category="Hard">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.5653"/>
+    <Param id="mix" value="0.7106"/>
+    <Param id="mode" value="4"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.728889"/>
+  </Preset>
+  <Preset name="Parallel Grit" category="Hard">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.7907"/>
+    <Param id="mix" value="0.2428"/>
+    <Param id="mode" value="4"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.331444"/>
+  </Preset>
+  <Preset name="Bright Crunch" category="Hard">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.4445"/>
+    <Param id="mix" value="0.5993"/>
+    <Param id="mode" value="4"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.00555556"/>
+  </Preset>
+  <Preset name="Square Edge" category="Hard">
+    <Param id="autogain" value="1"/>
+    <Param id="drive" value="0.3475"/>
+    <Param id="mode" value="4"/>
+    <Param id="tone" value="-0.205"/>
+  </Preset>
+  <Preset name="Brickwall Grit" category="Hard">
+    <Param id="drive" value="0.633"/>
+    <Param id="mix" value="0.683"/>
+    <Param id="mode" value="4"/>
+    <Param id="out" value="-4.041"/>
+    <Param id="tone" value="-0.4437"/>
+  </Preset>
+  <Preset name="Clipped Sub" category="Hard">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.1508"/>
+    <Param id="drive" value="0.3026"/>
+    <Param id="mode" value="4"/>
+    <Param id="tone" value="-0.5826"/>
+  </Preset>
+  <Preset name="Octave Ghost" category="Rectify">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="1"/>
+    <Param id="mix" value="0.4089"/>
+    <Param id="mode" value="5"/>
+  </Preset>
+  <Preset name="Rectified Glass" category="Rectify">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.4025"/>
+    <Param id="drive" value="0.5456"/>
+    <Param id="mix" value="0.5097"/>
+    <Param id="mode" value="5"/>
+    <Param id="tone" value="0.3042"/>
+  </Preset>
+  <Preset name="Upper Octave Sheen" category="Rectify">
+    <Param id="bias" value="0.599"/>
+    <Param id="drive" value="0.294"/>
+    <Param id="mix" value="0.2918"/>
+    <Param id="mode" value="5"/>
+    <Param id="tone" value="0.5064"/>
+  </Preset>
+  <Preset name="Subtle Color" category="Mix">
+    <Param id="bias" value="0.3"/>
+    <Param id="drive" value="0.07958"/>
+    <Param id="mix" value="0.9866"/>
+    <Param id="mode" value="0"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.404"/>
+  </Preset>
+  <Preset name="Dark Saturation" category="Mix">
+    <Param id="bias" value="0"/>
+    <Param id="drive" value="0.2934"/>
+    <Param id="mix" value="0.9977"/>
+    <Param id="mode" value="1"/>
+    <Param id="os" value="1"/>
+    <Param id="out" value="0"/>
+    <Param id="tone" value="-0.778889"/>
+  </Preset>
+  <Preset name="Bus Warmth" category="Mix">
+    <Param id="autogain" value="1"/>
+    <Param id="drive" value="0.614316"/>
+    <Param id="mix" value="0.5061"/>
+    <Param id="mode" value="0"/>
+    <Param id="tone" value="-0.04857"/>
+  </Preset>
+  <Preset name="Parallel Dirt" category="Mix">
+    <Param id="autogain" value="1"/>
+    <Param id="drive" value="1"/>
+    <Param id="mix" value="0.3007"/>
+    <Param id="mode" value="4"/>
+    <Param id="tone" value="-0.2949"/>
+  </Preset>
+  <Preset name="Gentle Thickener" category="Mix">
+    <Param id="autogain" value="1"/>
+    <Param id="bias" value="0.2971"/>
+    <Param id="drive" value="0.782286"/>
+    <Param id="mix" value="0.4445"/>
+    <Param id="mode" value="1"/>
+  </Preset>
+</FjordFxPresets>

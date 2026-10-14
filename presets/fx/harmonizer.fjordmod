@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FjordFxPresets effect="harmonizer">
+  <Preset name="Octave Up" category="Octaves">
+    <Param id="level1" value="0.6845"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.515465"/>
+    <Param id="pitch1" value="12"/>
+  </Preset>
+  <Preset name="Octave Down" category="Octaves">
+    <Param id="level1" value="0.6941"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.509822"/>
+    <Param id="pitch1" value="-12"/>
+  </Preset>
+  <Preset name="Octaves Both Ways" category="Octaves">
+    <Param id="level1" value="0.6018"/>
+    <Param id="level2" value="0.6005"/>
+    <Param id="mix" value="0.451201"/>
+    <Param id="pitch1" value="12"/>
+    <Param id="pitch2" value="-12"/>
+  </Preset>
+  <Preset name="Two Octaves Up" category="Octaves">
+    <Param id="level1" value="0.4885"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.62119"/>
+    <Param id="pitch1" value="24"/>
+    <Param id="tone" value="-0.2932"/>
+  </Preset>
+  <Preset name="Sub Octave Weight" category="Octaves">
+    <Param id="level1" value="0.8051"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.475738"/>
+    <Param id="pitch1" value="-12"/>
+    <Param id="tone" value="-0.5114"/>
+  </Preset>
+  <Preset name="Octave Shimmer Echo" category="Octaves">
+    <Param id="delay" value="81.35"/>
+    <Param id="feedback" value="0.4379"/>
+    <Param id="level1" value="0.684"/>
+    <Param id="mix" value="0.522572"/>
+    <Param id="pitch1" value="12"/>
+    <Param id="tone" value="0.3039"/>
+  </Preset>
+  <Preset name="Power Fifth" category="Intervals">
+    <Param id="level1" value="0.6877"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.523055"/>
+    <Param id="pitch1" value="7"/>
+  </Preset>
+  <Preset name="Fifth And Octave" category="Intervals">
+    <Param id="level1" value="0.6077"/>
+    <Param id="level2" value="0.4982"/>
+    <Param id="mix" value="0.486962"/>
+    <Param id="pitch1" value="7"/>
+    <Param id="pitch2" value="12"/>
+  </Preset>
+  <Preset name="Fourth Below" category="Intervals">
+    <Param id="level1" value="0.6941"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.508629"/>
+    <Param id="pitch1" value="-5"/>
+  </Preset>
+  <Preset name="Major Third" category="Intervals">
+    <Param id="level1" value="0.6587"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.52783"/>
+    <Param id="pitch1" value="4"/>
+  </Preset>
+  <Preset name="Minor Third" category="Intervals">
+    <Param id="level1" value="0.66"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.547342"/>
+    <Param id="pitch1" value="3"/>
+  </Preset>
+  <Preset name="Sixth Above" category="Intervals">
+    <Param id="level1" value="0.6046"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.548526"/>
+    <Param id="pitch1" value="9"/>
+  </Preset>
+  <Preset name="Major Triad" category="Chords">
+    <Param id="level1" value="0.6146"/>
+    <Param id="level2" value="0.6074"/>
+    <Param id="mix" value="0.4634"/>
+    <Param id="pitch1" value="4"/>
+    <Param id="pitch2" value="7"/>
+  </Preset>
+  <Preset name="Minor Triad" category="Chords">
+    <Param id="level1" value="0.5981"/>
+    <Param id="level2" value="0.6117"/>
+    <Param id="mix" value="0.4404"/>
+    <Param id="pitch1" value="3"/>
+    <Param id="pitch2" value="7"/>
+  </Preset>
+  <Preset name="Sus Chord" category="Chords">
+    <Param id="level1" value="0.599"/>
+    <Param id="level2" value="0.5925"/>
+    <Param id="mix" value="0.452"/>
+    <Param id="pitch1" value="5"/>
+    <Param id="pitch2" value="7"/>
+  </Preset>
+  <Preset name="Open Fifths" category="Chords">
+    <Param id="level1" value="0.6055"/>
+    <Param id="level2" value="0.5618"/>
+    <Param id="mix" value="0.456521"/>
+    <Param id="pitch1" value="-5"/>
+    <Param id="pitch2" value="7"/>
+  </Preset>
+  <Preset name="Minor Seventh Air" category="Chords">
+    <Param id="level1" value="0.5138"/>
+    <Param id="level2" value="0.4579"/>
+    <Param id="mix" value="0.525538"/>
+    <Param id="pitch1" value="3"/>
+    <Param id="pitch2" value="10"/>
+  </Preset>
+  <Preset name="Wide Major" category="Chords">
+    <Param id="level1" value="0.5084"/>
+    <Param id="level2" value="0.605"/>
+    <Param id="mix" value="0.457398"/>
+    <Param id="pitch1" value="-8"/>
+    <Param id="pitch2" value="4"/>
+  </Preset>
+  <Preset name="Thick Unison" category="Detune">
+    <Param id="delay" value="14.61"/>
+    <Param id="detune" value="17.49"/>
+    <Param id="level1" value="0.6915"/>
+    <Param id="level2" value="0.703"/>
+    <Param id="mix" value="0.4968"/>
+    <Param id="pitch1" value="0"/>
+    <Param id="pitch2" value="0"/>
+  </Preset>
+  <Preset name="Micro Shift Wide" category="Detune">
+    <Param id="delay" value="10.28"/>
+    <Param id="detune" value="12.09"/>
+    <Param id="level1" value="0.7867"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.4563"/>
+    <Param id="pitch1" value="0"/>
+  </Preset>
+  <Preset name="Choir Of One" category="Detune">
+    <Param id="delay" value="24.98"/>
+    <Param id="detune" value="25.66"/>
+    <Param id="level1" value="0.586"/>
+    <Param id="level2" value="0.2935"/>
+    <Param id="mix" value="0.521721"/>
+    <Param id="pitch1" value="0"/>
+    <Param id="pitch2" value="12"/>
+  </Preset>
+  <Preset name="Gentle Double" category="Detune">
+    <Param id="delay" value="19.57"/>
+    <Param id="detune" value="8.103"/>
+    <Param id="level1" value="0.6947"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.493261"/>
+    <Param id="pitch1" value="0"/>
+  </Preset>
+  <Preset name="Seasick Double" category="Detune">
+    <Param id="delay" value="29.54"/>
+    <Param id="detune" value="44.76"/>
+    <Param id="level1" value="0.6886"/>
+    <Param id="level2" value="0.4859"/>
+    <Param id="mix" value="0.449539"/>
+    <Param id="pitch1" value="0"/>
+    <Param id="pitch2" value="0"/>
+  </Preset>
+  <Preset name="Vocal Stack" category="Detune">
+    <Param id="delay" value="17.6"/>
+    <Param id="detune" value="15.23"/>
+    <Param id="level1" value="0.4048"/>
+    <Param id="level2" value="0.3914"/>
+    <Param id="mix" value="0.571924"/>
+    <Param id="pitch1" value="12"/>
+    <Param id="pitch2" value="-12"/>
+  </Preset>
+  <Preset name="Rising Cascade" category="Cascades">
+    <Param id="delay" value="89.16"/>
+    <Param id="feedback" value="0.5964"/>
+    <Param id="level1" value="0.5971"/>
+    <Param id="mix" value="0.558588"/>
+    <Param id="pitch1" value="7"/>
+    <Param id="tone" value="0.1951"/>
+  </Preset>
+  <Preset name="Falling Cascade" category="Cascades">
+    <Param id="delay" value="88"/>
+    <Param id="feedback" value="0.5853"/>
+    <Param id="level1" value="0.5997"/>
+    <Param id="mix" value="0.543259"/>
+    <Param id="pitch1" value="-5"/>
+    <Param id="tone" value="-0.2037"/>
+  </Preset>
+  <Preset name="Octave Spiral" category="Cascades">
+    <Param id="delay" value="112.1"/>
+    <Param id="feedback" value="0.6381"/>
+    <Param id="level1" value="0.5885"/>
+    <Param id="mix" value="0.559072"/>
+    <Param id="pitch1" value="12"/>
+    <Param id="tone" value="-0.1996"/>
+  </Preset>
+  <Preset name="Crystal Stairs" category="Cascades">
+    <Param id="delay" value="71.51"/>
+    <Param id="feedback" value="0.5071"/>
+    <Param id="level1" value="0.5409"/>
+    <Param id="level2" value="0.4105"/>
+    <Param id="mix" value="0.506015"/>
+    <Param id="pitch1" value="4"/>
+    <Param id="pitch2" value="7"/>
+  </Preset>
+  <Preset name="Shimmer Pad" category="Cascades">
+    <Param id="delay" value="120"/>
+    <Param id="detune" value="9.986"/>
+    <Param id="feedback" value="0.5555"/>
+    <Param id="level1" value="0.6162"/>
+    <Param id="mix" value="0.55133"/>
+    <Param id="pitch1" value="12"/>
+    <Param id="tone" value="0.3894"/>
+  </Preset>
+  <Preset name="Endless Fourths" category="Cascades">
+    <Param id="delay" value="97.45"/>
+    <Param id="feedback" value="0.7139"/>
+    <Param id="level1" value="0.5968"/>
+    <Param id="mix" value="0.536348"/>
+    <Param id="pitch1" value="5"/>
+  </Preset>
+  <Preset name="Chipmunk" category="Character">
+    <Param id="level1" value="0.9877"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="1"/>
+    <Param id="pitch1" value="12"/>
+  </Preset>
+  <Preset name="Giant" category="Character">
+    <Param id="level1" value="1"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="1"/>
+    <Param id="pitch1" value="-12"/>
+    <Param id="tone" value="-0.3048"/>
+  </Preset>
+  <Preset name="Robot Choir" category="Character">
+    <Param id="delay" value="0"/>
+    <Param id="detune" value="0"/>
+    <Param id="level1" value="0.7886"/>
+    <Param id="level2" value="0.7966"/>
+    <Param id="mix" value="0.5841"/>
+    <Param id="pitch1" value="7"/>
+    <Param id="pitch2" value="-5"/>
+  </Preset>
+  <Preset name="Dark Bass Doubler" category="Character">
+    <Param id="level1" value="0.587"/>
+    <Param id="level2" value="0.3905"/>
+    <Param id="mix" value="0.51618"/>
+    <Param id="pitch1" value="-12"/>
+    <Param id="pitch2" value="-24"/>
+    <Param id="tone" value="-0.5987"/>
+  </Preset>
+  <Preset name="Bright Fifth Lead" category="Character">
+    <Param id="level1" value="0.5083"/>
+    <Param id="level2" value="0.2935"/>
+    <Param id="mix" value="0.590594"/>
+    <Param id="pitch1" value="7"/>
+    <Param id="pitch2" value="19"/>
+    <Param id="tone" value="0.3976"/>
+  </Preset>
+  <Preset name="Bell Overtones" category="Character">
+    <Param id="level1" value="0.509"/>
+    <Param id="level2" value="0.3522"/>
+    <Param id="mix" value="0.534507"/>
+    <Param id="pitch1" value="19"/>
+    <Param id="pitch2" value="24"/>
+    <Param id="tone" value="0.4859"/>
+  </Preset>
+  <Preset name="Lo-Fi Octaver" category="Character">
+    <Param id="detune" value="6.003"/>
+    <Param id="level1" value="0.7886"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.4996"/>
+    <Param id="pitch1" value="-12"/>
+    <Param id="tone" value="-0.6822"/>
+  </Preset>
+  <Preset name="Subtle Octave Air" category="Subtle">
+    <Param id="level1" value="0.3895"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.674346"/>
+    <Param id="pitch1" value="12"/>
+    <Param id="tone" value="0.2952"/>
+  </Preset>
+  <Preset name="Faint Fifth" category="Subtle">
+    <Param id="level1" value="0.3948"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.667426"/>
+    <Param id="pitch1" value="7"/>
+  </Preset>
+  <Preset name="Ghost Harmony" category="Subtle">
+    <Param id="delay" value="40.87"/>
+    <Param id="level1" value="0.4079"/>
+    <Param id="level2" value="0.2986"/>
+    <Param id="mix" value="0.597432"/>
+    <Param id="pitch1" value="4"/>
+    <Param id="pitch2" value="7"/>
+  </Preset>
+  <Preset name="Hint Of Sub" category="Subtle">
+    <Param id="level1" value="0.5119"/>
+    <Param id="level2" value="0"/>
+    <Param id="mix" value="0.607875"/>
+    <Param id="pitch1" value="-12"/>
+    <Param id="tone" value="-0.4065"/>
+  </Preset>
+</FjordFxPresets>

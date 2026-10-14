@@ -1,0 +1,86 @@
+name: Plugin release
+
+# Reusable release workflow: runs when a plugin pushes a tag like v0.2.0 (see tools/release/bump_version.py in
+# fjord-base). Builds Windows and Linux binaries, zips them with LICENSE and README.md and publishes a GitHub release
+# with the matching CHANGELOG.md section as notes. macOS binaries are not published: macOS users build from source.
+#
+#   on: { push: { tags: ["v*"] } }
+#   permissions: { contents: write }
+#   jobs:
+#     release:
+#       uses: fjord-sounds/fjord-base/.github/workflows/plugin-release.yml@main
+#       with: { target: Torden }
+on:
+  workflow_call:
+    inputs:
+      target:
+        description: CMake target and product name of the plugin
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - { name: Windows, os: windows-latest }
+          - { name: Linux,   os: ubuntu-latest }
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Tag matches CMakeLists.txt
+        shell: bash
+        run: |
+          V=$(sed -n 's/^project(${{ inputs.target }} VERSION \([0-9.]*\).*/\1/p' CMakeLists.txt)
+          [ "v$V" = "${GITHUB_REF_NAME}" ] || { echo "Tag ${GITHUB_REF_NAME} != CMake version v$V"; exit 1; }
+
+      - name: Linux dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libasound2-dev libx11-dev libxinerama-dev libxext-dev libxrandr-dev libxcursor-dev \
+            libfreetype-dev libfontconfig1-dev libgl1-mesa-dev
+
+      - name: Build
+        run: |
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DFJORD_COPY_PLUGIN=OFF -DFJORD_BASE_DIR=none
+          cmake --build build --config Release --target ${{ inputs.target }}_All -j4
+
+      - name: Package
+        shell: bash
+        run: |
+          ART="build/${{ inputs.target }}_artefacts/Release"
+          mkdir dist
+          cp LICENSE README.md dist/
+          for f in VST3 AU LV2 Standalone; do cp -R "$ART/$f" dist/ 2>/dev/null || true; done
+          cd dist && 7z a -tzip "../${{ inputs.target }}-${GITHUB_REF_NAME}-${{ matrix.name }}.zip" . > /dev/null
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ inputs.target }}-${{ matrix.name }}
+          path: ${{ inputs.target }}-*.zip
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Release notes from CHANGELOG.md
+        run: |
+          V="${GITHUB_REF_NAME#v}"
+          awk -v v="$V" '$0 ~ "^## \\[" v "\\]" {f=1; next} /^## \[/ {f=0} f' CHANGELOG.md > notes.md
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" dist/*.zip --title "${{ inputs.target }} ${GITHUB_REF_NAME#v}" \
+            --notes-file notes.md ${{ contains(github.ref_name, '-') && '--prerelease' || '' }}
