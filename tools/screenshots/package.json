@@ -1,0 +1,9 @@
+{
+  "name": "fjord-base-screenshots",
+  "private": true,
+  "description": "Composes the banner image of fjord-base with Playwright (banner.mjs)",
+  "type": "module",
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

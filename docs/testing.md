@@ -51,6 +51,10 @@ SHOTS=(
 )
 ```
 
+The banner of fjord-base's README (the three plugins in perspective) is composed by `fjord-base/tools/screenshots/banner.mjs`
+from the page shots of Fjord, Torden and Huldra (`node banner.mjs`, needs `npm install` in that folder); refresh it when the UI
+of one of them changes noticeably.
+
 Look at the screenshots before you report a UI change, in **both** themes. They never show personal data: no About page,
 no user presets.
 

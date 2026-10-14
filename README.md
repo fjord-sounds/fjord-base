@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/reverb-dark.webp">
-  <img alt="Fjord Reverb – one of the sixteen single-effect plugins" src="docs/screenshots/reverb-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/banner-dark.webp">
+  <img alt="fjord-base – the foundation of Fjord, Torden and Huldra" src="docs/screenshots/banner-light.webp">
 </picture>
 
 # fjord-base
@@ -40,6 +40,11 @@ LV2 and as standalone apps.
 | **Template** | `tools/new-plugin.py` creates a new plugin that builds and passes its test |
 
 ## The effects
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/reverb-dark.webp">
+  <img alt="Fjord Reverb – one of the sixteen single-effect plugins" src="docs/screenshots/reverb-light.webp">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/eq-dark.webp">

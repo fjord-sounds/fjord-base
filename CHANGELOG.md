@@ -7,6 +7,7 @@ versions follow [Semantic Versioning](https://semver.org/).
 - **Locks** for every plugin: `locks::LockSet`, the padlock menu (`LockMenu`, `MenuLayout`), `LockButton`, and
   `PresetManagerBase::setLocks`; the effect locks (whole chain and one per effect) come with the base. The template and the
   documentation include them.
+- Banner image for the README (`tools/screenshots/banner.mjs`).
 - `tools/install-all.sh` builds and installs every plugin next to fjord-base and all effect plugins in one go.
 - **Window size** in the options menu of the preset bar (75, 100, 125, 150 %).
 - Effect presets are stronger: the Exciter adds more harmonics, and weak presets of Exciter, Harmonizer, Squash, Transient,

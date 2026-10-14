@@ -72,7 +72,7 @@ def main():
         if src.stat().st_mode & 0o111:
             target.chmod(target.stat().st_mode | 0o111)
     print(f"Created {out}\nNext: cd {out} && git init && ./build.sh   (tests: cmake --build build --target {a.name}RenderTest)")
-    print("Then: write the sound engine, the pages, the presets, the README, and add the plugin to fjord-sounds/CLAUDE.md.")
+    print("Then: write the sound engine, the pages, the presets, the README, and add it to your workspace notes.")
 
 
 if __name__ == "__main__":
