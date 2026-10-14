@@ -4,6 +4,8 @@ All notable changes to fjord-base. The format follows [Keep a Changelog](https:/
 versions follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+
+## [0.2.0] – 2026-10-14
 - **Locks** for every plugin: `locks::LockSet`, the padlock menu (`LockMenu`, `MenuLayout`), `LockButton`, and
   `PresetManagerBase::setLocks`; the effect locks (whole chain and one per effect) come with the base. The template and the
   documentation include them.

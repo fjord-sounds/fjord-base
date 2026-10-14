@@ -6,12 +6,12 @@ A plugin's `CMakeLists.txt` is short:
 
 ```cmake
 cmake_minimum_required(VERSION 3.22)
-project(Torden VERSION 0.1.0 LANGUAGES C CXX)
+project(Torden VERSION 0.2.0 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # … macOS deployment target and architectures …
 
-set(FJORD_BASE_TAG "v0.1.0")
+set(FJORD_BASE_TAG "v0.2.0")
 set(FJORD_BASE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../fjord-base" CACHE PATH "Local fjord-base checkout")
 if(EXISTS "${FJORD_BASE_DIR}/cmake/FjordBase.cmake")
     add_subdirectory("${FJORD_BASE_DIR}" "${CMAKE_BINARY_DIR}/fjord-base")

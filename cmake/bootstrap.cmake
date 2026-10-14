@@ -1,6 +1,6 @@
 # Bootstrap snippet for plugin CMakeLists.txt files (copy it, do not include it – it runs before fjord-base exists).
 #
-#   set(FJORD_BASE_TAG "v0.1.0")
+#   set(FJORD_BASE_TAG "v0.2.0")
 #   set(FJORD_BASE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../fjord-base" CACHE PATH "Local fjord-base checkout")
 #   if(EXISTS "${FJORD_BASE_DIR}/cmake/FjordBase.cmake")
 #       add_subdirectory("${FJORD_BASE_DIR}" "${CMAKE_BINARY_DIR}/fjord-base")
