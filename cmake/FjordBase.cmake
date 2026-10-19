@@ -10,7 +10,7 @@
 set(FJORD_BASE_ROOT "${CMAKE_CURRENT_LIST_DIR}/.." CACHE INTERNAL "fjord-base source folder")
 get_filename_component(FJORD_BASE_ROOT "${FJORD_BASE_ROOT}" ABSOLUTE)
 
-set(FJORD_JUCE_TAG "8.0.4" CACHE STRING "JUCE release used when no local checkout exists")
+set(FJORD_JUCE_TAG "9.0.4" CACHE STRING "JUCE release used when no local checkout exists")
 set(FJORD_JUCE_DIR "${FJORD_BASE_ROOT}/external/JUCE" CACHE PATH "Local JUCE checkout (optional)")
 option(FJORD_COPY_PLUGIN "Install the plugins to the user plugin folders after building" ON)
 
