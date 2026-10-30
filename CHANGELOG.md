@@ -4,6 +4,8 @@ All notable changes to fjord-base. The format follows [Keep a Changelog](https:/
 versions follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+
+## [0.2.1] – 2026-10-30
 - Hamar (physically modelled piano) joins the family: its plugin code `Hmar` is reserved in `tools/new-plugin.py`, and
   the documentation lists it.
 - Fixed: Linux builds with Makefiles failed (`Argument list too long`) once a plugin embeds about 1,900 files – the
