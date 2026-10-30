@@ -16,7 +16,8 @@ fjord-base                         plugin (e.g. torden)
 
 fjord-base is an **INTERFACE library** (`fjord_base`): its `.cpp` files compile inside every plugin target, so JUCE
 modules are built once per target. Binary data (Manrope, effect presets and chains) is a separate library
-(`FjordBaseData`). `fjord_add_plugin()` in `cmake/FjordBase.cmake` wires everything: formats, plugin codes, binary data,
+(`FjordBaseData`), built with `fjord_add_binary_data` (like `juce_add_binary_data`, but safe for thousands of files on
+Linux). `fjord_add_plugin()` in `cmake/FjordBase.cmake` wires everything: formats, plugin codes, binary data,
 warnings, the test target.
 
 Namespaces: base code is `fjord::base::…` (`fjord::base::fx`, `…::ui`, `…::params`, `…::presets`, `…::plugin`,

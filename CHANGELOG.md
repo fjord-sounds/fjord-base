@@ -6,6 +6,9 @@ versions follow [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 - Hamar (physically modelled piano) joins the family: its plugin code `Hmar` is reserved in `tools/new-plugin.py`, and
   the documentation lists it.
+- Fixed: Linux builds with Makefiles failed (`Argument list too long`) once a plugin embeds about 1,900 files – the
+  binary data step echoed every generated file name in one shell argument. `fjord_add_binary_data` (same output as
+  `juce_add_binary_data`) prints a short message instead and is used for the plugins' and the base's data.
 
 ## [0.2.0] – 2026-10-14
 - **Locks** for every plugin: `locks::LockSet`, the padlock menu (`LockMenu`, `MenuLayout`), `LockButton`, and

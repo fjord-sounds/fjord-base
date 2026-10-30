@@ -53,6 +53,56 @@ macro(fjord_setup_juce)
     endif()
 endmacro()
 
+# Same as juce_add_binary_data, but the custom command gets a short COMMENT. Without one, the Makefile generator
+# echoes every generated file name in one shell argument, which breaks Linux builds (MAX_ARG_STRLEN, 128 KiB) once a
+# plugin embeds ~1,900 files.
+function(fjord_add_binary_data target)
+    cmake_parse_arguments(ARG "" "NAMESPACE;HEADER_NAME" "SOURCES" ${ARGN})
+    if(NOT ARG_SOURCES)
+        message(FATAL_ERROR "fjord_add_binary_data needs at least one file")
+    endif()
+    if(NOT ARG_NAMESPACE)
+        set(ARG_NAMESPACE BinaryData)
+    endif()
+    if(NOT ARG_HEADER_NAME)
+        set(ARG_HEADER_NAME BinaryData.h)
+    endif()
+
+    add_library(${target} STATIC)
+    set_target_properties(${target} PROPERTIES POSITION_INDEPENDENT_CODE TRUE)
+    set(folder "${CMAKE_CURRENT_BINARY_DIR}/juce_binarydata_${target}/JuceLibraryCode")
+    file(MAKE_DIRECTORY "${folder}")
+
+    list(LENGTH ARG_SOURCES count)
+    set(outputs)
+    foreach(index RANGE 1 ${count})
+        list(APPEND outputs "${folder}/BinaryData${index}.cpp")
+    endforeach()
+    list(APPEND outputs "${folder}/${ARG_HEADER_NAME}")
+
+    set(inputs "")
+    foreach(name IN LISTS ARG_SOURCES)
+        get_filename_component(name "${name}" ABSOLUTE BASE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+        string(APPEND inputs "${name}\n")
+    endforeach()
+    set(input_list "${folder}/input_file_list")
+    file(WRITE "${input_list}" "${inputs}")
+
+    add_custom_command(OUTPUT ${outputs}
+        COMMAND juce::juceaide binarydata "${ARG_NAMESPACE}" "${ARG_HEADER_NAME}" "${folder}" "${input_list}"
+        WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
+        DEPENDS "${input_list}" ${ARG_SOURCES}
+        COMMENT "Embedding ${count} files as ${ARG_NAMESPACE}"
+        VERBATIM)
+
+    target_sources(${target} PRIVATE ${outputs})
+    target_include_directories(${target} INTERFACE "${folder}")
+    target_compile_features(${target} PRIVATE cxx_std_17)
+    if(ARG_HEADER_NAME STREQUAL "BinaryData.h")
+        target_compile_definitions(${target} INTERFACE JUCE_TARGET_HAS_BINARY_DATA=1)
+    endif()
+endfunction()
+
 function(fjord_add_base_library)
     if(TARGET fjord_base)
         return()
@@ -61,7 +111,7 @@ function(fjord_add_base_library)
     # Fonts (Manrope, SIL OFL) and the factory presets of every effect, shared by all plugins.
     file(GLOB fonts CONFIGURE_DEPENDS "${FJORD_BASE_ROOT}/resources/fonts/*.ttf")
     file(GLOB fx_presets CONFIGURE_DEPENDS "${FJORD_BASE_ROOT}/presets/fx/*.fjordmod" "${FJORD_BASE_ROOT}/presets/chains/*.fjordfx")
-    juce_add_binary_data(FjordBaseData NAMESPACE FjordBaseData HEADER_NAME FjordBaseData.h SOURCES ${fonts} ${fx_presets})
+    fjord_add_binary_data(FjordBaseData NAMESPACE FjordBaseData HEADER_NAME FjordBaseData.h SOURCES ${fonts} ${fx_presets})
     set_target_properties(FjordBaseData PROPERTIES POSITION_INDEPENDENT_CODE TRUE)
 
     # An interface library: the sources compile inside every plugin (JUCE modules must only be built once per target).
@@ -162,7 +212,7 @@ function(fjord_add_plugin target)
         file(WRITE "${placeholder}" "fjord")
         set(data_files "${placeholder}")
     endif()
-    juce_add_binary_data(${target}BinaryData SOURCES ${data_files})
+    fjord_add_binary_data(${target}BinaryData SOURCES ${data_files})
     set_target_properties(${target}BinaryData PROPERTIES POSITION_INDEPENDENT_CODE TRUE)
 
     fjord_git_hash("${CMAKE_CURRENT_SOURCE_DIR}" hash)
